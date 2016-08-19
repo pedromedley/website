@@ -1,0 +1,28 @@
+<footer class="footer">
+    <section>
+        <p>
+            {{ if .Site.Params.twitter }}
+            <a href="//twitter.com/{{ .Site.Params.twitter }}" target="_blank" title="Twitter">
+                <i class="fa fa-2x fa-fw fa-twitter"></i>
+            </a>
+            {{ end }}
+
+            {{ if .Site.Params.github }}
+            <a href="//github.com/{{ .Site.Params.github }}" target="_blank" title="GitHub">
+                <i class="fa fa-2x fa-fw fa-github"></i>
+            </a>
+            {{ end }}
+
+            {{ if .RSSlink }}
+            <a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank" title="RSS">
+                <i class="fa fa-2x fa-fw fa-rss"></i>
+            </a>
+            {{ end }}
+        </p>
+
+        <p>
+            &copy; {{.Now.Format "2006"}}
+            <a href="{{ .Site.BaseURL }}">{{ .Site.Copyright }}</a>
+        </p>
+    </section>
+</footer>

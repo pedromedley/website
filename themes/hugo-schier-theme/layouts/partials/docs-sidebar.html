@@ -1,0 +1,15 @@
+<aside class="col-3 docs-sidebar">
+    {{ range .Site.Menus.docs }}
+    <h2>{{ .Name | title }}</h2>
+
+    <ul>
+        {{ range .Children }}
+        <li>
+            <a href="{{ .URL }}">{{ .Name | title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+
+    {{ end }}
+</aside>
+<div class="col-1"></div>

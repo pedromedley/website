@@ -1,0 +1,22 @@
+<nav class="navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 navbar__container">
+                <a href="{{ .Site.BaseURL }}" class="navbar__icon">
+                    <img src="/images/icon-small.png" alt="Insomnia REST Client icon">
+                </a>
+                <a href="{{ .Site.BaseURL }}" class="navbar__title">
+                    <h1>{{ .Site.Params.shortName }}</h1>
+                </a>
+
+                {{ if .Site.Menus.main }}
+                <ul class="navbar__items">
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,21 @@
+<nav class="pagination container" role="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a class="pagination__button pagination__button--left" href="{{ .Paginator.Prev.URL }}">
+        <i class="fa fa-chevron-circle-left"></i> Newer
+    </a>
+    {{ else }}
+    <a class="pagination__button pagination__button--left">&nbsp;</a>
+    {{ end }}
+
+    <div class="pagination__pages">
+        Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+    </div>
+
+    {{ if .Paginator.HasNext }}
+    <a class="pagination__button pagination__button--right" href="{{ .Paginator.Next.URL }}">
+        Older <i class="fa fa-chevron-circle-right"></i>
+    </a>
+    {{ else }}
+    <a class="pagination__button pagination__button--right">&nbsp;</a>
+    {{ end }}
+</nav>

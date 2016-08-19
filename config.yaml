@@ -1,0 +1,57 @@
+---
+baseurl: "http://insomnia.rest/"
+languageCode: "en-us"
+copyright: "Insomnia REST Client"
+title: "Insomnia REST Client"
+theme: "hugo-schier-theme"
+menu:
+  main:
+    - Name: "Blog"
+      Identifier: "blog"
+      URL: "/blog"
+      Weight: 2
+    - Name: "Download"
+      Identifier: "download"
+      URL: "/download/"
+      Weight: 0
+    - Name: "Docs"
+      Identifier: "docs"
+      URL: "/docs/"
+      Weight: 1
+  docs:
+      - Name: ""
+        Identifier: "welcome"
+        Weight: 0
+      - Name: "Getting Started"
+        Identifier: "starting"
+        Weight: 1
+      - Name: "Help Topics"
+        Identifier: "topics"
+        Weight: 2
+author:
+  name: "Gregory Schier"
+  image: "me.jpg"
+taxonomies:
+  tag: "tags"
+  category: "categories"
+params:
+  docsCategories:
+    - "welcome"
+    - "starting"
+    - "topics"
+  stylesheets:
+    - "main.css"
+  scripts:
+    - "main.js"
+  shortName: "Insomnia 3.0"
+  bio: "Independant software developer"
+  location: "Victoria BC, Canada"
+  description: "The best REST client"
+  twitter: "GetInsomnia"
+  keepReadingStr: "Read More"
+pygmentsCodeFences: true
+pygmentsStyle: "monokai"
+pygmentsUseClasses: true
+metaDataFormat: "yaml"
+blackfriday:
+  fractions: false

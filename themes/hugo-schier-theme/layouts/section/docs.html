@@ -1,0 +1,23 @@
+{{ partial "head" . }}
+<body>
+
+{{ partial "navbar" . }}
+
+<main role="main" class="container">
+    <div class="row">
+        {{ partial "docs-sidebar" . }}
+        <div class="col-8">
+            <h1>Welcome to the docs!</h1>
+
+            <p>
+                This is where you can get help with insomnia
+            </p>
+        </div>
+    </div>
+</main>
+
+{{ partial "footer" . }}
+{{ partial "js" . }}
+
+</body>
+</html>

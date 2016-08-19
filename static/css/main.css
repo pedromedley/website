@@ -1,0 +1,77 @@
+
+/* ~~~~~~~~~~~~~ */
+/* FEATURES LIST */
+/* ~~~~~~~~~~~~~ */
+
+.feature-list {
+    max-width: 40rem;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+.feature-list ul {
+    width: 14rem;
+    margin: 1rem auto;
+}
+
+.feature-list li {
+    line-height: 1.9em;
+    list-style: circle;
+    margin: auto;
+    width: auto;
+}
+
+
+/* ~~~~~~~~~~~~~~ */
+/* DOWNLOADS PAGE */
+/* ~~~~~~~~~~~~~~ */
+
+.platform-download .button {
+    margin-top: 2rem;
+    width: 10rem;
+}
+
+.platform-download__icon {
+    background: #ccc;
+}
+
+.platform-download__icon::before {
+    display: block;
+    line-height: 10rem;
+    font-size: 4rem !important;
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    color: #fff;
+    text-shadow: 0 0 4rem rgba(0, 0, 0, 0.1);
+}
+
+
+/* ~~~~~~ */
+/* IMAGES */
+/* ~~~~~~ */
+
+.img--promo {
+    border-radius: 0.2rem;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+    border: 1px solid #ededed;
+    max-height: 12rem;
+}
+
+
+/* ~~~~~~ */
+/* COLORS */
+/* ~~~~~~ */
+
+.bg-mac {
+    background-color: #bbb;
+}
+
+.bg-windows {
+    background-color: #00bcf2;
+}
+
+.bg-linux {
+    background-color: #333;
+}
