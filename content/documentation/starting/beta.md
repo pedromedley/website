@@ -1,6 +1,6 @@
 ---
 title: "Join the Beta"
-slug: "3.0-beta"
+slug: "3_0-beta"
 menu: 
     docs:
         parent: "starting"

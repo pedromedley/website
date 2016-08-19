@@ -1,6 +1,6 @@
 html {
     font-reddit: 'Lato', Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 html, body {
@@ -571,7 +571,7 @@ a.tags__tag:hover {
 /* ~~~~~~~~~~~~~~~~~~ */
 
 body.template-blog .container {
-    /*max-width: 44rem;*/
+    max-width: 44rem;
 }
 
 body.template-docs .container {
@@ -603,10 +603,6 @@ body.template-docs .container {
 }
 
 @media only screen and (min-width: 33.75rem) {
-    html {
-        font-size: 15px;
-    }
-
     .jumbotron {
         margin-bottom: 14rem;
     }
