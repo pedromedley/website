@@ -277,7 +277,7 @@ body.floating-navbar .navbar {
 }
 
 body.floating-navbar .navbar a {
-    opacity: 0.2;
+    opacity: 0.4;
     transition: opacity 200ms;
     color: #fff !important;
 }
@@ -309,7 +309,6 @@ body.floating-navbar .navbar a:hover {
 
 .navbar__title {
     white-space: nowrap;
-    width: 100%;
 }
 
 .navbar__title h1 {
@@ -339,6 +338,8 @@ body.floating-navbar .navbar__icon img {
 }
 
 .navbar__items {
+    text-align: right;
+    width: 100%;
     white-space: nowrap;
     margin-right: -1rem;
 }
