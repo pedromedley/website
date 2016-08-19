@@ -27,45 +27,47 @@
 </div>
 
 <main role="main">
-    <section class="container center">
-        <h2>Speed up your API testing workflow</h2>
-        <br>
-        <div class="row">
-            <div class="col-4">
-                <div class="img--promo">
-                    <img src="/images/screens/template.png" alt="Insomnia Request Templating">
+    <section class="center no-margin padding-bottom padding-top">
+        <div class="container">
+            <h2>Speed up your API testing workflow</h2>
+            <br>
+            <div class="row">
+                <div class="col-4">
+                    <div class="img--promo">
+                        <img src="/images/screens/template.png" alt="Insomnia Request Templating">
+                    </div>
+                    <h3>Quickly create requests</h3>
+                    <p>
+                        Specify URL, payload, headers, and authorization all in one place. Then
+                        just hit send.
+                    </p>
                 </div>
-                <h3>Quickly create requests</h3>
-                <p>
-                    Specify URL, payload, headers, and authorization all in one place. Then
-                    just hit send.
-                </p>
-            </div>
-            <div class="col-4">
-                <div class="img--promo">
-                    <img src="/images/screens/responses.png"
-                         alt="Insomnia Request Basic Authentication">
+                <div class="col-4">
+                    <div class="img--promo">
+                        <img src="/images/screens/responses.png"
+                             alt="Insomnia Request Basic Authentication">
+                    </div>
+                    <h3>View detailed responses</h3>
+                    <p>
+                        Get all the details on every response. View status code, body,
+                        headers, cookies, and more!
+                    </p>
                 </div>
-                <h3>View detailed responses</h3>
-                <p>
-                    Get all the details on every response. View status code, body,
-                    headers, cookies, and more!
-                </p>
-            </div>
-            <div class="col-4">
-                <div class="img--promo">
-                    <img src="/images/screens/drag.png" alt="Insomnia Request Organization">
+                <div class="col-4">
+                    <div class="img--promo">
+                        <img src="/images/screens/drag.png" alt="Insomnia Request Organization">
+                    </div>
+                    <h3>Organize your workspace</h3>
+                    <p>
+                        Create workspaces or folders, drag-and-drop requests, and easily
+                        import and export your data.
+                    </p>
                 </div>
-                <h3>Organize your workspace</h3>
-                <p>
-                    Create workspaces or folders, drag-and-drop requests, and easily
-                    import and export your data.
-                </p>
             </div>
         </div>
     </section>
 
-    <section class="light">
+    <section class="light no-margin padding-bottom padding-top">
         <div class="container center">
             <div class="row">
                 <div class="col-2"></div>
@@ -85,7 +87,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="no-margin padding-bottom padding-top">
         <div class="container center">
             <div class="row">
                 <div class="col-2"></div>
@@ -103,7 +105,7 @@
         </div>
     </section>
 
-    <section class="light">
+    <section class="light no-margin padding-bottom padding-top">
         <div class="container center">
             <div class="row">
                 <div class="col-2"></div>
@@ -122,7 +124,7 @@
         </div>
     </section>
 
-    <section class="dark">
+    <section class="dark no-margin padding-bottom padding-top">
         <div class="container">
             <div class="row">
                 <div class="col-12 center">
@@ -155,11 +157,7 @@
                 </div>
             </div>
             <br><br>
-            <a href="/download" class="button __download-link">
-                <i class="fa fa-download"></i>
-                &nbsp;
-                Download Insomnia 3.0 Beta
-            </a>
+            {{ partial "download-button" }}
             <br>
         </div>
     </section>

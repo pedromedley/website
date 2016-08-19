@@ -1,43 +1,18 @@
 {{ partial "head" . }}
-<body>
+<body class="home-template">
 
 {{ partial "navbar" . }}
 
-<main role="main">
+<main class="content" role="main">
     {{ $paginator := .Paginate .Data.Pages.ByDate.Reverse 10 }}
     {{ range $paginator.Pages }}
-    <article class="container article--preview">
-        <header>
-            <h1 class="post-title">
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </h1>
-            <div class="meta">
-                <time datetime='{{ .Date.Format "02 January 2006" }}'>
-                    {{ .Date.Format "02 January, 2006" }}
-                </time>
-                {{ if isset .Params "series" }}
-                {{ with .Params.series }}
-                –
-                <a href="{{ $.Site.BaseURL }}series/{{ index . 0 | urlize }}"
-                   title="This post is part of the {{ index . 0 | title }} blog series">
-                    {{ index . 0 }}
-                </a>
-                {{ end }}
-                {{ end }}
-            </div>
-        </header>
-        <section class="post-excerpt">
-            <p>{{ .Summary }}</p>
-            {{ if .Truncated }}
-            <p class="read-more">
-                <a href="{{ .Permalink }}">
-                    {{ .Site.Params.keepReadingStr }} <i class="fa fa-angle-double-right" style="padding-left: 5px;"></i>
-                </a>
-            </p>
-            {{ end }}
-        </section>
-    </article>
+    <div class="container">
+        <a href="{{ .Permalink }}">
+            <h1 class="post-title">{{ .Title }}</h1>
+        </a>
+    </div>
     {{ end }}
+
     {{ partial "pagination" . }}
 </main>
 

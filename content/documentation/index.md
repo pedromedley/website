@@ -1,5 +1,7 @@
 ---
 title: "Introduction"
+slug: "introduction"
+url: "/documentation"
 weight: -1
 menu: 
     docs:

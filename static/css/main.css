@@ -33,6 +33,8 @@
 
 .platform-download__icon {
     background: #ccc;
+    width: 10rem;
+    height: 10rem;
 }
 
 .platform-download__icon::before {
@@ -40,8 +42,6 @@
     line-height: 10rem;
     font-size: 4rem !important;
     text-align: center;
-    width: 10rem;
-    height: 10rem;
     color: #fff;
     text-shadow: 0 0 4rem rgba(0, 0, 0, 0.1);
 }
@@ -52,11 +52,14 @@
 /* ~~~~~~ */
 
 .img--promo {
+    width: auto;
+    display: inline-block;
     border-radius: 0.2rem;
     overflow: hidden;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
     border: 1px solid #ededed;
     max-height: 12rem;
+    margin: 1rem auto;
 }
 
 
@@ -74,4 +77,27 @@
 
 .bg-linux {
     background-color: #333;
+}
+
+
+/* ~~~~~~~~~~~~~ */
+/* MEDIA QUERIES */
+/* ~~~~~~~~~~~~~ */
+
+@media only screen and (min-width: 33.75rem) {
+    .img--promo {
+        max-height: 12rem;
+    }
+}
+
+@media only screen and (min-width: 45rem) {
+    .img--promo {
+        max-height: 7rem;
+    }
+}
+
+@media only screen and (min-width: 60rem) {
+    .img--promo {
+        max-height: 10rem;
+    }
 }

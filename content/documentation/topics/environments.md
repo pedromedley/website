@@ -10,7 +10,7 @@ in one place. The environment is defined as JSON, so you can put whatever you wa
 
 **Sample Environment:**
 
-```
+```json
 {
 	"base_url": "https://api.myproduct.com/v1",
 	"api_key": "live_0a7b973038f4f6ee5",

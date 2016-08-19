@@ -1,19 +1,25 @@
 {{ partial "head" . }}
-<body>
+<body class="template-docs">
 
 {{ partial "navbar" . }}
 
 <main role="main" class="container">
     <div class="row">
         {{ partial "docs-sidebar" . }}
-        <article class="col-8 docs-main">
-            <h1>{{ .Title }}</h1>
-            {{ if isset .Params "subtitle" }}
-            <p class="text-lg">{{ .Params.subtitle | markdownify }}</p>
-            {{ end }}
+        <div class="col-8">
+            <article class="docs-main">
+                <header>
+                    <h1>{{ .Title }}</h1>
+                    {{ if isset .Params "subtitle" }}
+                    <p class="text-lg">{{ .Params.subtitle | markdownify }}</p>
+                    {{ end }}
+                </header>
 
-            {{ .Content }}
-        </article>
+                <section class="content">
+                    {{ .Content }}
+                </section>
+            </article>
+        </div>
     </div>
 </main>
 

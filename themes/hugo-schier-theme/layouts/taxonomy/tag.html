@@ -4,7 +4,9 @@
 {{ partial "navbar" . }}
 
 <main class="content" role="main">
+    {{ with .Paginate (where .Data.Pages.ByDate.Reverse "Type" "blog") 10 }}
     {{ partial "post-list" . }}
+    {{ end }}
     {{ partial "pagination" . }}
 </main>
 

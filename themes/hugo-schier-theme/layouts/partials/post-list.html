@@ -1,34 +1,42 @@
-{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "docs") 10 }}
-{{ range $paginator.Pages }}
-<article class="container article--preview">
-    <header>
-        <h1 class="post-title">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </h1>
-        <div class="meta">
-            <time datetime='{{ .Date.Format "02 January 2006" }}'>
-                {{ .Date.Format "02 January, 2006" }}
-            </time>
-            {{ if isset .Params "series" }}
-            {{ with .Params.series }}
-            –
-            <a href="{{ $.Site.BaseURL }}series/{{ index . 0 | urlize }}"
-               title="This post is part of the {{ index . 0 | title }} blog series">
-                {{ index . 0 }}
-            </a>
-            {{ end }}
-            {{ end }}
+{{ range .Pages }}
+<article class="article--preview">
+    <header class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="{{ .Permalink }}">
+                    <h1>{{ .Title }}</h1>
+                </a>
+                <div class="meta">
+                    <time datetime='{{ .Date.Format "02 January 2006" }}'>
+                        {{ .Date.Format "02 January, 2006" }}
+                    </time>
+                    {{ if isset .Params "series" }}
+                    {{ with .Params.series }}
+                    –
+                    <a href="{{ $.Site.BaseURL }}series/{{ index . 0 | urlize }}"
+                       title="This post is part of the {{ index . 0 | title }} blog series">
+                        {{ index . 0 }}
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
         </div>
     </header>
-    <section class="post-excerpt">
-        <p>{{ .Summary }}</p>
-        {{ if .Truncated }}
-        <p class="read-more">
-            <a href="{{ .Permalink }}">
-                {{ .Site.Params.keepReadingStr }} <i class="fa fa-angle-double-right" style="padding-left: 5px;"></i>
-            </a>
-        </p>
-        {{ end }}
+    <section class="content container">
+        <div class="row">
+            <div class="col-12">
+                <p>{{ .Summary }}</p>
+                {{ if .Truncated }}
+                <p class="read-more">
+                    <a href="{{ .Permalink }}">
+                        {{ .Site.Params.keepReadingStr }}
+                        <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </p>
+                {{ end }}
+            </div>
+        </div>
     </section>
 </article>
 {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: "Code Snippet Generation"
+title: "Code Snippets"
 menu:
     docs:
         parent: "topics"

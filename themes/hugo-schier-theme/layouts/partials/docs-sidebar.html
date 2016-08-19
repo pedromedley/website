@@ -1,11 +1,21 @@
 <aside class="col-3 docs-sidebar">
+
+    {{ $currentNode := . }}
     {{ range .Site.Menus.docs }}
-    <h2>{{ .Name | title }}</h2>
+    <h2>{{ .Name }}</h2>
 
     <ul>
         {{ range .Children }}
         <li>
-            <a href="{{ .URL }}">{{ .Name | title }}</a>
+            {{ if $currentNode.IsMenuCurrent "docs" . }}
+            <span class="docs-sidebar__entry">
+                {{ .Name }} →
+            </span>
+            {{ else }}
+            <a href="{{ .URL }}" class="docs-sidebar__entry">
+                {{ .Name }}
+            </a>
+            {{ end }}
         </li>
         {{ end }}
     </ul>

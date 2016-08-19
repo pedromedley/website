@@ -3,19 +3,25 @@
         <p>
             {{ if .Site.Params.twitter }}
             <a href="//twitter.com/{{ .Site.Params.twitter }}" target="_blank" title="Twitter">
-                <i class="fa fa-2x fa-fw fa-twitter"></i>
+                <i class="fa fa-2x fa-fw fa-twitter-square"></i>
             </a>
             {{ end }}
 
             {{ if .Site.Params.github }}
             <a href="//github.com/{{ .Site.Params.github }}" target="_blank" title="GitHub">
-                <i class="fa fa-2x fa-fw fa-github"></i>
+                <i class="fa fa-2x fa-fw fa-github-square"></i>
+            </a>
+            {{ end }}
+
+            {{ if .Site.Params.googlePlus }}
+            <a href="//github.com/{{ .Site.Params.googlePlus }}" target="_blank" title="Google+">
+                <i class="fa fa-2x fa-fw fa-google-plus-square"></i>
             </a>
             {{ end }}
 
             {{ if .RSSlink }}
             <a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank" title="RSS">
-                <i class="fa fa-2x fa-fw fa-rss"></i>
+                <i class="fa fa-2x fa-fw fa-rss-square"></i>
             </a>
             {{ end }}
         </p>
