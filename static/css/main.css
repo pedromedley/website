@@ -6,12 +6,12 @@
 .feature-list {
     max-width: 40rem;
     font-size: 1.2rem;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 .feature-list ul {
     width: 14rem;
-    margin: 1rem auto;
+    margin: 0rem auto;
 }
 
 .feature-list li {

@@ -122,6 +122,7 @@ code {
     border-radius: 4px;
     cursor: pointer;
     outline: none;
+    transition: all 0.3s ease;
 }
 
 .button--inline {
@@ -137,7 +138,6 @@ code {
 }
 
 .button:hover, .button:hover * {
-    transition: all 0.3s ease;
     text-decoration: none;
     color: #fff;
 }
@@ -197,7 +197,7 @@ img.jumbotron__icon {
     margin: 0;
     padding-top: 1rem;
     font-size: 1.8rem;
-    color: #ddd;
+    color: #eee;
 }
 
 .jumbotron .button {
