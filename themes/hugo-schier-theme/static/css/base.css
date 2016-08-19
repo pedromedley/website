@@ -16,9 +16,13 @@ main {
 /* BASIC STYLES */
 /* ~~~~~~~~~~~~ */
 
-a, a * {
+a {
     text-decoration: none;
     color: #675BC0;
+}
+
+a * {
+    color: inherit !important;
 }
 
 a:hover {
@@ -71,7 +75,7 @@ code {
     font-family: Menlo, monospace;
     font-size: 0.75em;
     border-radius: 0.2em;
-    padding: 0.2em 0.4em;
+    padding: 0.2em 0.5em;
     background-color: #f3f3f3;
     border: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 400;
@@ -186,13 +190,14 @@ code {
 
 img.jumbotron__icon {
     max-height: 8rem;
-    margin: auto auto 3rem;
+    margin: -2rem auto 3rem;
 }
 
 .jumbotron h2 {
     margin: 0;
     padding-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    color: #ddd;
 }
 
 .jumbotron .button {
@@ -271,13 +276,15 @@ body.floating-navbar .navbar {
     right: 0;
 }
 
-body.floating-navbar .navbar * {
-    color: #eee;
+body.floating-navbar .navbar a {
+    opacity: 0.2;
+    transition: opacity 200ms;
+    color: #fff !important;
 }
 
-body.floating-navbar .navbar a:hover,
-body.floating-navbar .navbar a:hover * {
+body.floating-navbar .navbar a:hover {
     color: #fff;
+    opacity: 1;
 }
 
 .navbar * {
@@ -314,16 +321,16 @@ body.floating-navbar .navbar a:hover * {
 }
 
 .navbar__icon {
-    min-width: 3rem;
-    width: 3rem;
+    min-width: 2.9rem;
+    width: 2.9rem;
 }
 
 .navbar__icon img {
     background: #5b4fa9;
     border-radius: 50%;
-    height: 2.3rem;
-    width: 2.3rem;
-    padding: 4px;
+    height: 2.0rem;
+    width: 2.0rem;
+    padding: 3px;
     box-sizing: border-box;
 }
 

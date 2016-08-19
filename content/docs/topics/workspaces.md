@@ -1,9 +1,8 @@
 ---
-title: "Workspaces
+title: "Workspaces"
 menu:
     docs:
         parent: "topics"
-
 ---
 
 Workspaces are useful for separating data between different projects. All data except for global
