@@ -51,7 +51,7 @@ You can reference the environment in any request by using the
 You can open the environment manager by clicking the environments dropdown in the top of the sidebar.
 From there, you can edit the global environment, or create sub-environments.
 
-![Insomnia REST Client Environments](/images/environments.png)
+![Insomnia REST Client Environments](/images/docs/environments.png)
 
 
 ### Global Environment
@@ -68,7 +68,7 @@ of the sidebar.
 The most common use for sub environments is for switching between development and production
 settings.
 
-![Insomnia Environment Dropdown](/images/environment-dropdown.png)
+![Insomnia Environment Dropdown](/images/docs/environment-dropdown.png)
 
 
 ### Environment Overrides

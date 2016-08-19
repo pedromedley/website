@@ -1,8 +1,8 @@
 ---
-title: "Insomnia 3.0 Beta"
-category: "starting"
+title: "Join the Beta"
+slug: "3.0-beta"
 menu: 
-    welcome:
+    docs:
         parent: "starting"
 ---
 

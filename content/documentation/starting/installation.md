@@ -1,5 +1,6 @@
 ---
 title: "Installation"
+slug: "installation"
 menu:
     docs:
         parent: "starting"

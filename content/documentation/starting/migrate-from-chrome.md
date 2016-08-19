@@ -1,5 +1,6 @@
 ---
-title: "Migrate from 2.0"
+title: "Migrating from 2.0"
+slug: "migrate-from-chrome"
 menu:
     docs:
         parent: "starting"

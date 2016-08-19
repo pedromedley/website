@@ -1,9 +1,10 @@
 ---
-title: "Welcome to Insomnia"
+title: "Introduction"
 weight: -1
 menu: 
     docs:
-        parent: "welcome"
+        parent: "starting"
+        weight: -1
 
 ---
 

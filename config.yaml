@@ -1,9 +1,11 @@
 ---
-baseurl: "http://insomnia.surge.sh/"
+baseurl: "http://insomnia.rest/"
 languageCode: "en-us"
 copyright: "Insomnia REST Client"
 title: "Insomnia REST Client"
 theme: "hugo-schier-theme"
+permalinks:
+  docs: /documentation/:slug
 menu:
   main:
     - Name: "Blog"
@@ -16,7 +18,7 @@ menu:
       Weight: 0
     - Name: "Docs"
       Identifier: "docs"
-      URL: "/docs/"
+      URL: "/documentation/"
       Weight: 1
   docs:
       - Name: ""

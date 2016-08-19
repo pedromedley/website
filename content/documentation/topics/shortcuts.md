@@ -3,6 +3,7 @@ title: "Keyboard Shortcuts"
 menu:
     docs:
         parent: "topics"
+        weight: 99
 ---
 
 _If you are a MacOS user, pretend `ctrl` is actually `cmd`_

@@ -10,4 +10,4 @@ settings are stored at the workspace-level.
 
 You can create, delete, and switch between workspaces from the top-left menu of the application.
 
-![Insomnia REST Client Workspace Dropdown](/images/workspace-dropdown.png)
+![Insomnia REST Client Workspace Dropdown](/images/docs/workspace-dropdown.png)

@@ -174,7 +174,7 @@ code {
 .jumbotron {
     background: linear-gradient(165deg, #6e60cc 0%, #484389 100%);
     text-align: center;
-    padding: 10rem 0 8rem 0;
+    padding: 9rem 0 8rem 0;
     margin-bottom: 3rem;
 }
 
@@ -277,7 +277,7 @@ body.floating-navbar .navbar {
 }
 
 body.floating-navbar .navbar a {
-    opacity: 0.4;
+    opacity: 0.6;
     transition: opacity 200ms;
     color: #fff !important;
 }
@@ -387,6 +387,12 @@ body.floating-navbar .navbar__icon img {
 
     .docs-main {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 33.75rem) {
+    .navbar__title {
+        display: none;
     }
 }
 
