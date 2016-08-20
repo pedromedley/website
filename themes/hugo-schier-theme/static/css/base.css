@@ -71,7 +71,15 @@ article {
 }
 
 article.article--preview {
-    margin: 2rem auto 5rem auto;
+    margin: 2rem auto 3rem auto;
+}
+
+article.article--preview p {
+    margin: 0;
+}
+
+article.article--preview .read-more {
+    margin-top: 2rem;
 }
 
 article.article--preview header * {

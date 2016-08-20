@@ -8,6 +8,8 @@ slug: "google-discontinuing-chrome-apps"
 The Chrome version of Insomnia will be available until 2017, but you should upgrade to the
 [standalone version (3.0)](/download) as soon as possible.
 
+<!--more-->
+
 <div style="text-align:center;padding:1rem 0">
 <a class="button __download-link" href="/download">Download Version 3.0 (Standalone)</a>
 </div>

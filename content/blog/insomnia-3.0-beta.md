@@ -8,6 +8,8 @@ tags: ["update"]
 Only a week has gone by since the last update, but a lot has changed. This release introduces three 
 brand new features – cookie management, global environment variables, and code snippet generation!
 
+<!--more-->
+
 ## Cookie Management
 
 The ability to manage cookies has been the most requested feature (by far) of the beta, so I'm 
