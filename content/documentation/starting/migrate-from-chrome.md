@@ -6,32 +6,45 @@ menu:
         parent: "starting"
 ---
 
-The [previous version of Insomnia](https://chrome.google.com/webstore/detail/insomnia-rest-client/gmodihnfibbjdecbanmpmbmeffnmloel) 
-was a Chrome application, installed via the [Chrome Web Store](https://chrome.google.com/webstore).
-Due to certain limitations of Chrome Apps, I rewrote Insomnia using the 
-[Electron](http://electron.atom.io/) framework to be a native desktop app.
+The previous [version 2.0](https://chrome.google.com/webstore/detail/insomnia-rest-client/gmodihnfibbjdecbanmpmbmeffnmloel) 
+of Insomnia
+was a Chrome application, installed via the Chrome Web Store.
+Due to certain limitations of Chrome Apps, Insomnia 3.0 is now a standalone desktop app 
+and is supported on Mac, Windows, and Linux.
 
-Luckily for you, **Upgrading from the Chrome app is easy**. Just follow these three simple steps.
+<p class="center">
+<a href="/download" target="_blank" class="button __download-link">Download Insomnia</a>
+</p>
 
+## Step 1 – Install Insomnia 3.0
 
-## Step 1 – Export Data from Insomnia 2.0
+[Download a copy](/download) of Insomnia 3.0 for your platform. Once downloaded, double click
+the file to launch the installer (Mac and Windows).
+
+## Step 2 – Export Data from Insomnia 2.0
 
 - Open Insomnia 2.0 (Chrome App)
-- Open to Settings by clicking the dropdown menu in the top left
+- Open the settings dialog by clicking the dropdown in the top left
 - Click the _Export_ button
-- Save the file to your computer
+- Save the export file to your computer
+
+_Note: If you have multiple workspaces, you will need to export them each individually._
 
 
-## Step 2 – Import Data into Insomnia 3.0
+## Step 3 – Import Data into Insomnia 3.0
 
 - Open Insomnia 3.0 
-- Open to Settings by clicking the dropdown menu in the top left
-- Click the _Import_ button
+- Open the import dialog by clicking the dropdown menu in the top left
 - Select the file that you saved in the previous step
 
 
-## Step 3 – Enjoy the App!
+## Enjoy the App!
 
-That's it! You can now use Insomnia 3.0 and never look back!
+That's it! Now you can carry on with your work and enjoy the new features of 3.0 including 
+[cookie management](/documentation/cookie-management),
+[global environments](/documentation/environment-variables), and
+[code snippet generation](/documentation/code-snippets).
 
+
+~ Gregory
 

@@ -1,5 +1,5 @@
 html {
-    font-reddit: 'Lato', Helvetica, sans-serif;
+    font-family: 'Lato', Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -44,7 +44,19 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0.5rem 0;
 }
 
-p {
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p, ul {
     margin: 1rem 0 2rem 0;
 }
 
@@ -93,14 +105,6 @@ article section {
 article header.header--big {
     text-align: center;
     padding: 3rem 0;
-}
-
-article h1 {
-    font-size: 2.2rem;
-}
-
-article h2 {
-    font-size: 1.8rem;
 }
 
 article header * {
@@ -193,13 +197,10 @@ pre > code {
 
 .button {
     display: inline-block;
-    height: 3rem;
-    line-height: 3rem;
     text-align: center;
     min-width: 4rem;
-    padding-left: 0.8rem;
     box-sizing: border-box;
-    padding-right: 0.8rem;
+    padding: 0.5rem 0.8rem;
     margin: auto;
     font-size: 1rem;
     font-weight: 200;
@@ -492,9 +493,7 @@ body.floating-navbar .navbar__icon img {
     color: #ffffff;
     outline: none;
     margin: 0.5rem 0;
-    line-height: 2.2rem;
-    height: 2.2rem;
-    width: 4em;
+    padding: 0.3rem 0.1rem;
 }
 
 .button--share.twitter {

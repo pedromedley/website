@@ -1,6 +1,6 @@
 ---
 date: 2016-08-19T22:01:22-07:00
-title: "Google Discontinuing Chrome Apps"
+title: "Google to Discontinue Chrome Apps"
 slug: "google-discontinuing-chrome-apps"
 tags: ["announcement"]
 ---
@@ -11,10 +11,9 @@ The Chrome version of Insomnia will be available until 2017, but you should upgr
 
 <!--more-->
 
-<div style="text-align:center;padding:1rem 0">
+<p style="text-align:center">
 <a class="button __download-link" href="/download">Download Version 3.0 (Standalone)</a>
-</div>
-<br>
+</p>
 
 Google [announced today](http://blog.chromium.org/2016/08/from-chrome-apps-to-web.html) that they
 will be phasing out Chrome Apps by mid-2017. This means that the Chrome version (2.0) of Insomnia
