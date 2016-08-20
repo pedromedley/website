@@ -2,6 +2,7 @@
 date: 2016-08-19T22:01:22-07:00
 title: "Google Discontinuing Chrome Apps"
 slug: "google-discontinuing-chrome-apps"
+tags: ["announcement"]
 ---
 
 **Don't worry!**

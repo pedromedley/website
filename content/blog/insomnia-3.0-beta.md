@@ -1,5 +1,5 @@
 ---
-date: 2016-08-19T10:27:16-07:00
+date: 2016-08-15T10:17:00-07:00
 title: "Insomnia 3.2.0 Beta Update"
 slug: "insomnia-3.2.0-beta-update"
 tags: ["update"]
