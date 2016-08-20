@@ -12,7 +12,15 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    <!-- Twitter Card -->
+    {{ if .IsPage }}
+    <!-- Twitter Summary Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}images/twitter-card-icon.png" />
+    {{ else }}
+    <!-- Full Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@GetInsomnia">
     <meta name="twitter:creator" content="@GetInsomnia">
@@ -21,6 +29,8 @@
           content="Organize, execute, and debug HTTP requests in a simple and elegant cross-platform desktop app.">
     <meta name="twitter:image"
           content="http://insomnia.rest/images/twitter-promo.png">
+    {{ end }}
+
     <!-- /Twitter Card -->
 
     <!-- RSS -->

@@ -18,7 +18,7 @@ main {
 
 a {
     text-decoration: none;
-    color: #675BC0;
+    color: #7b55ff;
 }
 
 a * {
@@ -34,7 +34,8 @@ a:hover {
     font-weight: 300;
 }
 
-strong {
+strong,
+strong * {
     font-weight: 500;
 }
 
@@ -62,7 +63,7 @@ section.section--bordered {
     margin-top: 0;
     margin-bottom: 0;
     padding: 2rem 0;
-    border-top: 1px solid #f5f5f5;
+    border-top: 1px solid #f0f0f0;
 }
 
 article {
@@ -71,6 +72,10 @@ article {
 
 article.article--preview {
     margin: 2rem auto 5rem auto;
+}
+
+article.article--preview header * {
+    color: inherit;
 }
 
 article section {
@@ -106,6 +111,19 @@ code {
 
 code, code * {
     font-family: Menlo, 'Source Code Pro', monospace;
+}
+
+blockquote {
+    border-left: 0.5rem solid #f0f0f0;
+    padding: 1rem 1rem 1rem 2rem;
+    margin: 0 0 2rem;
+}
+
+blockquote * {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.3em;
+    color: #888;
 }
 
 *:not(pre) > code {
@@ -166,11 +184,14 @@ pre > code {
 /* ~~~~~~~ */
 
 .button {
-    display: block;
+    display: inline-block;
     height: 3rem;
     line-height: 3rem;
-    width: 11rem;
     text-align: center;
+    min-width: 4rem;
+    padding-left: 0.8rem;
+    box-sizing: border-box;
+    padding-right: 0.8rem;
     margin: auto;
     font-size: 1rem;
     font-weight: 200;
