@@ -355,7 +355,7 @@ body.floating-navbar .navbar {
 }
 
 body.floating-navbar .navbar a {
-    opacity: 0.6;
+    opacity: 0.5;
     transition: opacity 200ms;
     color: #fff !important;
 }
