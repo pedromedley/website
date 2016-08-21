@@ -179,6 +179,10 @@ pre > code {
     margin: 0;
 }
 
+.no-wrap {
+    white-space: nowrap;
+}
+
 .padding-top {
     padding-top: 3rem;
 }
