@@ -30,8 +30,7 @@
                 {{ if .Truncated }}
                 <p class="read-more">
                     <a href="{{ .Permalink }}">
-                        {{ .Site.Params.keepReadingStr }}
-                        <i class="fa fa-angle-double-right"></i>
+                        {{ .Site.Params.keepReadingStr }} &raquo;
                     </a>
                 </p>
                 {{ end }}

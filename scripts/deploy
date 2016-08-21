@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DIST_FOLDER=_dist
+
+echo "-- Building Site --"
+hugo --destination ${DIST_FOLDER}
+
+echo "-- Compressing Images --"
+pulverize --recursive "${DIST_FOLDER}/images"
+
+echo "-- Deploying to Surge --"
+surge ${DIST_FOLDER}
+
+echo "-- Removing Build Folder --"
+rm -r ${DIST_FOLDER}

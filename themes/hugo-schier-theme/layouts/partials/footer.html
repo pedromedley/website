@@ -1,27 +1,27 @@
 <footer class="footer">
     <section>
-        <p>
+        <p class="footer__social">
             {{ if .Site.Params.twitter }}
             <a href="//twitter.com/{{ .Site.Params.twitter }}" target="_blank" title="Twitter">
-                <i class="fa fa-2x fa-fw fa-twitter-square"></i>
+                Twitter
             </a>
             {{ end }}
 
             {{ if .Site.Params.github }}
             <a href="//github.com/{{ .Site.Params.github }}" target="_blank" title="GitHub">
-                <i class="fa fa-2x fa-fw fa-github-square"></i>
+                Github
             </a>
             {{ end }}
 
             {{ if .Site.Params.googlePlus }}
             <a href="//plus.google.com/+{{ .Site.Params.googlePlus }}" target="_blank" title="Google+">
-                <i class="fa fa-2x fa-fw fa-google-plus-square"></i>
+                Google+
             </a>
             {{ end }}
 
             {{ if .RSSlink }}
             <a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank" title="RSS">
-                <i class="fa fa-2x fa-fw fa-rss-square"></i>
+                RSS
             </a>
             {{ end }}
         </p>

@@ -3,7 +3,7 @@
     <div class="notice">
         {{ with .Params.series }}
         This post is part of the
-        <a href="{{ $.Site.BaseURL }}series/{{ index . 0 | urlize }}"><i class="fa fa-book"></i>
+        <a href="{{ $.Site.BaseURL }}series/{{ index . 0 | urlize }}">
             {{ index . 0 | title }}</a> series.
         {{ end }}
     </div>

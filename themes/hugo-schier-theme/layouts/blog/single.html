@@ -1,6 +1,9 @@
 {{ partial "head" . }}
 <body class="template-blog">
 
+<!-- Fonts -->
+{{ partial "fontawesome" }}
+
 {{ partial "navbar" . }}
 
 <main role="main">
@@ -51,8 +54,7 @@
                     <div class="col-12">
                         {{ range .Params.tags }}
                         <a class="tags__tag" href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">
-                            <i class="fa fa-fw fa-tag"></i>
-                            <span class="tags__tag__name">{{ . }}</span>
+                            &#x25cb; <span class="tags__tag__name">{{ . }}</span>
                         </a>
                         {{ end }}
                     </div>

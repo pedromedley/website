@@ -30,7 +30,7 @@ and enjoy the new features like
 [global environments](/documentation/environment-variables), and
 [code snippet generation](/documentation/code-snippets).
 
-If you have any questions, email [support@insomnia.rest](support@insomnia.rest) or reach out
+If you have any questions, email [support@insomnia.rest](mailto:support@insomnia.rest) or reach out
 on Twitter [@GetInsomnia](https://twitter.com/GetInsomnia).
 
 
