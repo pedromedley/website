@@ -12,15 +12,12 @@
                 <h2 class="font-light">
                     for Mac, Windows, and Linux
                 </h2>
-                <a href="/downloads" class="button __download-link">
-                    Download
-                </a>
+                {{ partial "download-button" }}
             </div>
         </div>
         <div class="row">
             <div class="jumbotron__img-container">
-                <img src="/images/screens/main.png"
-                     class="jumbotron__img"
+                <img src="/images/screens/main.png" class="jumbotron__img"
                      alt="Insomnia REST Client"/>
             </div>
         </div>
@@ -68,6 +65,29 @@
         </div>
     </section>
 
+    <section class="dark no-margin padding-bottom padding-top">
+        <div class="container center">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <h2>Announcing version 3.0 beta!</h2>
+                    <p>
+                        Version 3.0 takes a big leap forward with a complete rewrite, new features,
+                        and moving from a Chrome app to a standalone desktop app.
+                        <a href="{{ .Site.BaseURL }}documentation/migrate-from-chrome/"
+                           class="subtle">
+                            Upgrade Guide <i class="fa fa-angle-double-right"></i>
+                        </a>
+                    </p>
+                    <p>
+                        {{ partial "download-button" }}
+                    </p>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </section>
+
     <section class="light no-margin padding-bottom padding-top">
         <div class="container center">
             <div class="row">
@@ -98,9 +118,9 @@
                 <div class="col-8">
                     <h2>Generate boilerplate code</h2>
                     <p>
-                        Automatically generate code snippets for over <strong>thirty different
-                        languages and libraries</strong>,
-                        including NodeJS, Go, Swift, Python, Java, C, and more.
+                        Generate code snippets for over <strong>thirty different
+                        language libraries</strong>,
+                        like NodeJS, Go, Swift, Python, Java, C, and others.
                         <a href="{{ .Site.BaseURL }}documentation/code-snippets/" class="no-wrap">
                             Learn more <i class="fa fa-angle-double-right"></i>
                         </a>
@@ -117,7 +137,7 @@
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-8">
-                    <h2>Easily work with cookie-based APIs</h2>
+                    <h2>Work with cookie-based APIs</h2>
                     <p>
                         Easily view and manage cookies in a simple yet powerful interface. Cookies
                         are <strong>automatically stored and sent</strong> with every request, just
