@@ -37,6 +37,10 @@ features like automated API testing, team collaboration (paid), and even documen
 It's vast feature list makes it a bit harder to learn than other clients, but it's very powerful 
 once you get up and running.
 
+_Update Aug 22, 2016: Postman now has a
+[blog post](http://blog.getpostman.com/2016/08/23/using-the-postman-chrome-app-implications-from-the-recent-google-announcement/) 
+on the Chrome App shutdown as well._
+
 
 ## Paw (Mac) $
 

@@ -259,7 +259,6 @@ pre > code {
 
 .docs-sidebar {
     margin-left: 0;
-    padding-bottom: 3rem;
 }
 
 .docs-sidebar ul {
@@ -274,6 +273,10 @@ pre > code {
 .docs-sidebar__entry {
     padding: 0.2rem 0;
     display: block;
+}
+
+.docs-sidebar__entry--active::after {
+    content: "→";
 }
 
 .docs-sidebar h2 {
@@ -510,9 +513,9 @@ body.floating-navbar .navbar__icon img {
 
 a.tags__tag {
     display: inline-block;
-    background: #f7f7f7;
     padding: 0.2rem 0.5rem;
     font-size: 0.8rem;
+    font-weight: 300;
     margin-right: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -521,17 +524,11 @@ a.tags__tag {
 
 a.tags__tag:hover {
     text-decoration: none;
-    background: #f5f5f5;
+    background: #7f62f3;
+    color: #fff;
 }
 
-.tags__tag i.fa,
-.tags__tag__name {
-    opacity: 0.8;
-    margin-left: 0.2rem;
-}
-
-.tags__tag:hover i.fa,
-.tags__tag:hover .tags__tag__name {
+.tags__tag:hover {
     opacity: 1;
 }
 
@@ -619,12 +616,22 @@ body.template-docs .container {
 /* ~~~~~~~~~~~~~ */
 
 @media only screen and (max-width: 58rem) {
-    /*.docs-sidebar {*/
-    /*display: none;*/
-    /*}*/
-    /*.docs-main {*/
-    /*width: 100%;*/
-    /*}*/
+    .docs-sidebar {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 2rem;
+    }
+
+    .docs-sidebar__entry--active::after {
+        content: "↓";
+    }
+
+    .docs-sidebar li {
+        display: inline-block;
+    }
+
+    .docs-sidebar__entry {
+        margin: 0 1rem
+    }
 }
 
 @media only screen and (max-width: 33.75rem) {

@@ -8,8 +8,8 @@
         {{ range .Children }}
         <li>
             {{ if $currentNode.IsMenuCurrent "docs" . }}
-            <span class="docs-sidebar__entry">
-                {{ .Name }} →
+            <span class="docs-sidebar__entry docs-sidebar__entry--active">
+                {{ .Name }}
             </span>
             {{ else }}
             <a href="{{ .URL }}" class="docs-sidebar__entry">

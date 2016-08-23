@@ -1,15 +1,17 @@
 #!/bin/bash
 
 DIST_FOLDER=_dist
+SLIM_FOLDER=_slim
 
 echo "-- Building Site --"
 hugo --destination ${DIST_FOLDER}
 
 echo "-- Compressing Images --"
-pulverize --recursive "${DIST_FOLDER}/images"
+cp -r ${DIST_FOLDER} ${SLIM_FOLDER}
+slimpack ${DIST_FOLDER}
 
 echo "-- Deploying to Surge --"
-surge ${DIST_FOLDER}
+surge ${SLIM_FOLDER}
 
 echo "-- Removing Build Folder --"
-rm -r ${DIST_FOLDER}
+rm -r ${DIST_FOLDER} ${SLIM_FOLDER}

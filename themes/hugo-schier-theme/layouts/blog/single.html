@@ -53,8 +53,8 @@
                 <div class="row">
                     <div class="col-12">
                         {{ range .Params.tags }}
-                        <a class="tags__tag" href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">
-                            &#x25cb; <span class="tags__tag__name">{{ . }}</span>
+                        <a class="button tags__tag" href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">
+                            {{ . }}
                         </a>
                         {{ end }}
                     </div>

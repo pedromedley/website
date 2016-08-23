@@ -12,8 +12,8 @@
             <p>
                 {{ $data := .Data }}
                 {{ range $count, $term := .Data.Terms.ByCount }}
-                <a class="tags__tag" href="/{{ $data.Plural }}/{{ $term.Name | urlize }}">
-                    <span class="tags__tag__name">{{ $term.Name }} ({{ $term.Count }})</span>
+                <a class="button tags__tag" href="/{{ $data.Plural }}/{{ $term.Name | urlize }}">
+                    {{ $term.Name }} ({{ $term.Count }})
                 </a>
                 {{ end }}
             </p>
