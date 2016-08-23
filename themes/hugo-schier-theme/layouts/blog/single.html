@@ -53,7 +53,8 @@
                 <div class="row">
                     <div class="col-12">
                         {{ range .Params.tags }}
-                        <a class="button tags__tag" href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">
+                        <a class="button tags__tag"
+                           href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">
                             {{ . }}
                         </a>
                         {{ end }}
@@ -73,16 +74,6 @@
         </footer>
         {{ end }}
     </article>
-
-    <section class="section--bordered">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 center">
-                    {{ partial "download-button" }}
-                </div>
-            </div>
-        </div>
-    </section>
 
     {{ if not .Params.disableSharing }}
     <section class="section--bordered share">
@@ -107,6 +98,21 @@
         </div>
     </section>
     {{ end }}
+
+    <section class="dark no-margin padding-bottom padding-top">
+        <div class="container">
+            <div class="row center">
+                <div class="col-8">
+                    <p class="no-margin" style="margin: 0.6rem;">
+                        Ready to speed up your API testing workflow?
+                    </p>
+                </div>
+                <div class="col-4">
+                    {{ partial "download-button" }}
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 {{ partial "footer" . }}

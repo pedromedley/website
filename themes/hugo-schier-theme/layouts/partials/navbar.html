@@ -11,8 +11,11 @@
 
                 {{ if .Site.Menus.main }}
                 <ul class="navbar__items">
+                    {{ $root := . }}
                     {{ range .Site.Menus.main }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    <li>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
                     {{ end }}
                 </ul>
                 {{ end }}

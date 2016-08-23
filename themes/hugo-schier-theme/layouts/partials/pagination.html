@@ -1,8 +1,7 @@
-{{ if gt .Paginator.TotalPages 1 }}
 <section class="container">
     <div class="row">
         <div class="col-12">
-            <nav class="pagination" role="pagination">
+            <nav class="pagination center" role="pagination">
                 {{ if .Paginator.HasPrev }}
                 <a class="pagination__button pagination__button--left"
                    href="{{ .Paginator.Prev.URL }}">
@@ -28,4 +27,3 @@
         </div>
     </div>
 </section>
-{{ end }}

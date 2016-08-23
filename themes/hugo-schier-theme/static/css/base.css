@@ -83,7 +83,16 @@ article {
 }
 
 article.article--preview {
-    margin: 2rem auto 3rem auto;
+    margin: 2rem auto;
+}
+
+article.article--preview .article--preview__content {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3rem;
+}
+
+article.article--preview h1 {
+    font-size: 1.9rem;
 }
 
 article.article--preview p {
@@ -102,7 +111,7 @@ article section {
     margin: 1rem 0;
 }
 
-article header.header--big {
+header.header--big {
     text-align: center;
     padding: 3rem 0;
 }
@@ -134,7 +143,7 @@ blockquote {
 blockquote * {
     margin: 0;
     font-style: italic;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #888;
 }
 
