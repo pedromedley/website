@@ -14,8 +14,16 @@
             {{ end }}
 
             {{ if .Site.Params.googlePlus }}
-            <a href="//plus.google.com/+{{ .Site.Params.googlePlus }}" target="_blank" title="Google+">
+            <a href="//plus.google.com/+{{ .Site.Params.googlePlus }}" target="_blank"
+               title="Google+">
                 Google+
+            </a>
+            {{ end }}
+
+            {{ if .Site.Params.email }}
+            <a href='mailto:{{ .Site.Params.email }}?subject={{ "Insomnia Feedback" | safeURL }}&body={{ "Hi Gregory,\n\n\n" | safeURL }}'
+               target="_blank" title="Contact">
+                Support
             </a>
             {{ end }}
 
