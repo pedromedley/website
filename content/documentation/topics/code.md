@@ -1,5 +1,6 @@
 ---
 title: "Code Snippets"
+slug: "code-snippets"
 menu:
     docs:
         parent: "topics"

@@ -1,5 +1,6 @@
 ---
 title: "Workspaces"
+slug: "workspaces"
 menu:
     docs:
         parent: "topics"

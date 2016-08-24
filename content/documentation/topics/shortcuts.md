@@ -1,5 +1,6 @@
 ---
 title: "Keyboard Shortcuts"
+slug: "keyboard-shortcuts"
 menu:
     docs:
         parent: "topics"

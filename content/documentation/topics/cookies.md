@@ -1,5 +1,6 @@
 ---
 title: "Cookie Management"
+slug: "cookie-management"
 menu:
     docs:
         parent: "topics"

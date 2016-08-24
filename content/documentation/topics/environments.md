@@ -1,5 +1,6 @@
 ---
 title: "Environment Variables"
+slug: "environment-variables"
 menu:
     docs:
         parent: "topics"

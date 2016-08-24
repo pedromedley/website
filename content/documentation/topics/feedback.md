@@ -1,5 +1,6 @@
 ---
 title: "Support and Feedback"
+slug: "support-and-feedback"
 menu:
     docs:
         parent: "topics"
