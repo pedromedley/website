@@ -3,12 +3,15 @@
 DIST_FOLDER=_dist
 SLIM_FOLDER=_slim
 
+
+echo "-- Removing Build Folder --"
+rm -r ${DIST_FOLDER} ${SLIM_FOLDER}
+
 echo "-- Building Site --"
 hugo --destination ${DIST_FOLDER}
 
-echo "-- Compressing Images --"
-cp -r ${DIST_FOLDER} ${SLIM_FOLDER}
-slimpack ${DIST_FOLDER}
+echo "-- Running Speedpack --"
+speedpack ${DIST_FOLDER} --output ${SLIM_FOLDER}
 
 echo "-- Deploying to Surge --"
 surge ${SLIM_FOLDER}

@@ -3,24 +3,42 @@
 
 {{ partial "navbar" . }}
 
-<main role="main" class="container">
-    <div class="row">
-        {{ partial "docs-sidebar" . }}
-        <div class="col-8">
-            <article class="docs-main">
-                <header>
-                    <h1>{{ .Title }}</h1>
-                    {{ if isset .Params "subtitle" }}
-                    <p class="text-lg">{{ .Params.subtitle | markdownify }}</p>
-                    {{ end }}
-                </header>
+<main role="main">
+    <div class="container">
 
-                <section class="content">
-                    {{ .Content }}
-                </section>
-            </article>
+        <div class="row">
+            {{ partial "docs-sidebar" . }}
+            <div class="col-8">
+                <article class="docs-main">
+                    <header>
+                        <h1>{{ .Title }}</h1>
+                        {{ if isset .Params "subtitle" }}
+                        <p class="text-lg">{{ .Params.subtitle | markdownify }}</p>
+                        {{ end }}
+                    </header>
+
+                    <section class="content">
+                        {{ .Content }}
+                    </section>
+                </article>
+            </div>
         </div>
     </div>
+
+    <section class="dark no-margin padding-bottom padding-top">
+        <div class="container">
+            <div class="row center">
+                <div class="col-8">
+                    <p class="no-margin" style="margin: 0.6rem;">
+                        Want to talk more? I'd love to help!
+                    </p>
+                </div>
+                <div class="col-4">
+                    {{ partial "contact-button" }}
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 {{ partial "footer" . }}

@@ -19,7 +19,7 @@ debugging HTTP requests.
 
 ## Backstory and History
 
-I started Insomnia in January of 2015. I was helping build the API platform for
+Development of Insomnia started in January of 2015. I was helping build the API platform for
 ([Sendwithus](https://www.sendwithus.com)) at the time, so a large part of my day-to-day was
 interacting with HTTP APIs.
 
@@ -49,8 +49,6 @@ The first version was built from a $15 [ThemeForest](https://themeforest.net/) t
 hundred likes of JQuery, and was distributed via the
 [Chrome Web Store](https://chrome.google.com/webstore). It was horrible but it worked, and slowly
 evolved to where it is today.
-
-You can download Insomnia today by visiting [http://insomnia.rest]().
 
 Thanks for reading, and I hope you enjoy the app!
 
