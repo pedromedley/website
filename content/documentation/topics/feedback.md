@@ -3,8 +3,7 @@ title: "Support and Feedback"
 slug: "support-and-feedback"
 menu:
     docs:
-        parent: "topics"
-        weight: 100
+        parent: "other"
 ---
 
 Please send any feedback you have to [support@insomnia.rest](mailto:support@insomnia.rest) and I

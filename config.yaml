@@ -33,6 +33,9 @@ menu:
       - Name: "Help Topics"
         Identifier: "topics"
         Weight: 2
+      - Name: "Other"
+        Identifier: "other"
+        Weight: 3
 author:
   name: "Gregory Schier"
   image: "me.jpg"
