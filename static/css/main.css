@@ -143,6 +143,48 @@ img.jumbotron__icon {
 
 
 /* ~~~~~~~~~~~~~ */
+/* PRICING PAGE  */
+/* ~~~~~~~~~~~~~ */
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing__column {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing__column__header {
+    border: 1px solid #e5e5e5;
+    padding: 1rem 1.5rem;
+    background: #f8f8f8;
+}
+
+.pricing__column__header h1 {
+    font-size: 1.4rem;
+}
+
+.pricing__column__body {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+
+.pricing__column__body ul {
+    padding-left: 1rem;
+    margin: 0 0 2rem;
+    display: block;
+}
+
+
+/* ~~~~~~~~~~~~~ */
 /* MEDIA QUERIES */
 /* ~~~~~~~~~~~~~ */
 

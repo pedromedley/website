@@ -27,13 +27,11 @@
         <div class="row">
             <div class="col-12 article--preview__content">
                 <p>{{ .Summary }}</p>
-                {{ if .Truncated }}
                 <p class="read-more">
                     <a href="{{ .Permalink }}">
                         {{ .Site.Params.keepReadingStr }} &raquo;
                     </a>
                 </p>
-                {{ end }}
             </div>
         </div>
     </section>

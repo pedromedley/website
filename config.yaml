@@ -11,10 +11,10 @@ permalinks:
   documentation: /documentation/:slug
 menu:
   main:
-    - Name: "Blog"
-      Identifier: "blog"
-      URL: "/blog"
-      Weight: 2
+    - Name: "Pricing"
+      Identifier: "pricing"
+      URL: "/pricing/"
+      Weight: 20
     - Name: "Download"
       Identifier: "download"
       URL: "/download/"
@@ -22,7 +22,11 @@ menu:
     - Name: "Docs"
       Identifier: "docs"
       URL: "/documentation/"
-      Weight: 1
+      Weight: 10
+    - Name: "Blog"
+      Identifier: "blog"
+      URL: "/blog"
+      Weight: 40
   docs:
       - Name: ""
         Identifier: "welcome"
