@@ -147,8 +147,6 @@ img.jumbotron__icon {
 /* ~~~~~~~~~~~~~ */
 
 .pricing {
-    display: flex;
-    flex-direction: row;
 }
 
 .pricing__column {
@@ -211,6 +209,11 @@ img.jumbotron__icon {
 
     .jumbotron {
         margin-bottom: 17rem;
+    }
+
+    .pricing {
+        display: flex;
+        flex-direction: row;
     }
 }
 
