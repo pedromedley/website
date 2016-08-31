@@ -62,7 +62,7 @@ Variables in the global environment can be used in any request at any time.
 
 ### Sub Environments
 
-Variables a sub environment can only be used when the desired sub environment is active. You can 
+Variables in a sub environment can only be used when the desired sub environment is active. You can 
 set a sub environment as active by switching to it in the environment dropdown, located at the top
 of the sidebar.
 
@@ -74,5 +74,5 @@ settings.
 
 ### Environment Overrides
 
-For more fine-grained control, you can override environment variable at the folder level. Access
+For more fine-grained control, you can override environment variables at the folder level. Access
 the overrides from the folder dropdown in the sidebar.

@@ -3,7 +3,7 @@ title: "Introduction"
 slug: "introduction"
 url: "/documentation"
 weight: -1
-menu: 
+menu:
     docs:
         parent: "starting"
         weight: -1
@@ -46,7 +46,7 @@ I eventually stumbled upon the world of _REST Clients_. These were usually poorl
 after a few days, still didn't find one that I liked. So I wrote my own.
 
 The first version was built from a $15 [ThemeForest](https://themeforest.net/) theme, a couple
-hundred likes of JQuery, and was distributed via the
+hundred lines of JQuery, and was distributed via the
 [Chrome Web Store](https://chrome.google.com/webstore). It was horrible but it worked, and slowly
 evolved to where it is today.
 
