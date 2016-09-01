@@ -153,12 +153,15 @@ img.jumbotron__icon {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 1px solid #e5e5e5;
 }
 
 .pricing__column__header {
-    border: 1px solid #e5e5e5;
     padding: 1rem 1.5rem;
     background: #f8f8f8;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .pricing__column__header h1 {
@@ -169,10 +172,6 @@ img.jumbotron__icon {
     padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    border: 1px solid #e5e5e5;
-    border-top: 0;
 }
 
 .pricing__column__body ul {
