@@ -4,6 +4,7 @@ slug: "code-snippets"
 menu:
     docs:
         parent: "topics"
+        weight: -90
 ---
 
 Insomnia can generate code for over twelve different languages. To do this, click on the 

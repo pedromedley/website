@@ -3,8 +3,7 @@ title: "Keyboard Shortcuts"
 slug: "keyboard-shortcuts"
 menu:
     docs:
-        parent: "topics"
-        weight: 99
+        parent: "other"
 ---
 
 _If you are a MacOS user, pretend `ctrl` is actually `cmd`_

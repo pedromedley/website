@@ -4,6 +4,7 @@ slug: "workspaces"
 menu:
     docs:
         parent: "topics"
+        weight: -70
 ---
 
 Workspaces are useful for separating data between different projects. All data except for global

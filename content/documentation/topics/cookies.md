@@ -4,6 +4,7 @@ slug: "cookie-management"
 menu:
     docs:
         parent: "topics"
+        weight: -80
 ---
 
 Insomnia automatically stores cookies from every response and sends them with every request. Click

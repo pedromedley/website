@@ -9,11 +9,11 @@
         <li>
             {{ if $currentNode.IsMenuCurrent "docs" . }}
             <span class="docs-sidebar__entry docs-sidebar__entry--active">
-                {{ .Name }}
+                {{ .Name | title }}
             </span>
             {{ else }}
             <a href="{{ .URL }}" class="docs-sidebar__entry">
-                {{ .Name }}
+                {{ .Name | title }}
             </a>
             {{ end }}
         </li>
