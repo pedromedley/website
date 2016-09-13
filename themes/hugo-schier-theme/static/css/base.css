@@ -130,6 +130,14 @@ code {
     tab-size: 2;
 }
 
+code {
+    white-space: nowrap;
+}
+
+pre code {
+    white-space: pre;
+}
+
 code, code * {
     font-family: Menlo, 'Source Code Pro', monospace;
 }
