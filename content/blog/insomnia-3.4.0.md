@@ -64,6 +64,7 @@ made it into the release.
 
 - Add button to duplicate folder
 - Add confirmation step before deleting things
+- _Cancel Request_ button
 - Improved "Raw" response view performance
 - Comments in editor are now more visible
 - Reduced update check frequency from 30 minutes to 3 hours
