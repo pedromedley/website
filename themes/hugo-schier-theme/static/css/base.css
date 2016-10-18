@@ -192,6 +192,14 @@ pre > code {
     font-size: 1.4rem;
 }
 
+.text-md {
+    font-size: 1.0rem;
+}
+
+.text-sm {
+    font-size: 0.9rem;
+}
+
 .subtle {
     opacity: 0.8;
     font-size: 0.9em;

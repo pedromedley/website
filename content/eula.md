@@ -6,15 +6,15 @@ title: "Insomnia End User License Agreement"
 
 By receiving, opening the file package, and/or using Insomnia REST Client ("Software") containing this software, you agree that this End User User License Agreement(EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.
 
-Unless you have a different license agreement signed by Gregory Schier your use of Insomnia REST Client indicates your acceptance of this license agreement and warranty.
+Unless you have a different license agreement signed by Floating Keyboard Software your use of Insomnia REST Client indicates your acceptance of this license agreement and warranty.
 
-Subject to the terms of this Agreement, Gregory Schier grants to you a limited, non-exclusive, non-transferable license, without right to sub-license, to use Insomnia REST Client in accordance with this Agreement and any other written agreement with Gregory Schier. Gregory Schier does not transfer the title of Insomnia REST Client to you; the license granted to you is not a sale. This agreement is a binding legal agreement between Gregory Schier and the purchasers or users of Insomnia REST Client .
+Subject to the terms of this Agreement, Floating Keyboard Software grants to you a limited, non-exclusive, non-transferable license, without right to sub-license, to use Insomnia REST Client in accordance with this Agreement and any other written agreement with Floating Keyboard Software. Floating Keyboard Software does not transfer the title of Insomnia REST Client to you; the license granted to you is not a sale. This agreement is a binding legal agreement between Floating Keyboard Software and the purchasers or users of Insomnia REST Client .
 
-If you do not agree to be bound by this agreement, remove Insomnia REST Client from your computer now and, if applicable, promptly return to Gregory Schier by mail any copies of Insomnia REST Client and related documentation and packaging in your possession.
+If you do not agree to be bound by this agreement, remove Insomnia REST Client from your computer now and, if applicable, promptly return to Floating Keyboard Software by mail any copies of Insomnia REST Client and related documentation and packaging in your possession.
 
 ## 2. DISTRIBUTION
 
-Insomnia REST Client and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part except that you may make one copy for archive purposes only. For information about redistribution of Insomnia REST Client contact Gregory Schier.
+Insomnia REST Client and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part except that you may make one copy for archive purposes only. For information about redistribution of Insomnia REST Client contact Floating Keyboard Software.
 
 ## 3. USER AGREEMENT
 
@@ -28,27 +28,27 @@ You shall use Insomnia REST Client in compliance with all applicable laws and no
 
 Each licensed copy of Insomnia REST Client may be used on one single computer location by one user. Use of Insomnia REST Client means that you have loaded, installed, or run Insomnia REST Client on a computer or similar device. If you install Insomnia REST Client onto a multi-user platform, server or network, each and every individual user of Insomnia REST Client must be licensed separately.
 
-You may make one copy of Insomnia REST Client for backup purposes, providing you only have one copy installed on one computer being used by one person. Other users may not use your copy of Insomnia REST Client . The assignment, sublicense, networking, sale, or distribution of copies of Insomnia REST Client are strictly forbidden without the prior written consent of Gregory Schier. It is a violation of this agreement to assign, sell, share, loan, rent, lease, borrow, network or transfer the use of Insomnia REST Client . If any person other than yourself uses Insomnia REST Client registered in your name, regardless of whether it is at the same time or different times, then this agreement is being violated and you are responsible for that violation!
+You may make one copy of Insomnia REST Client for backup purposes, providing you only have one copy installed on one computer being used by one person. Other users may not use your copy of Insomnia REST Client . The assignment, sublicense, networking, sale, or distribution of copies of Insomnia REST Client are strictly forbidden without the prior written consent of Floating Keyboard Software. It is a violation of this agreement to assign, sell, share, loan, rent, lease, borrow, network or transfer the use of Insomnia REST Client . If any person other than yourself uses Insomnia REST Client registered in your name, regardless of whether it is at the same time or different times, then this agreement is being violated and you are responsible for that violation!
 
 ### 3.3 Copyright Restriction
 
 This Software contains copyrighted material, trade secrets and other proprietary material. You shall not, and shall not attempt to, modify, reverse engineer, disassemble or decompile Insomnia REST Client . Nor can you create any derivative works or other works that are based upon or derived from Insomnia REST Client in whole or in part.
 
-Gregory Schier's name, logo and graphics file that represents Insomnia REST Client shall not be used in any way to promote products developed with Insomnia REST Client . Gregory Schier retains sole and exclusive ownership of all right, title and interest in and to Insomnia REST Client and all Intellectual Property rights relating thereto.
+Floating Keyboard Software's name, logo and graphics file that represents Insomnia REST Client shall not be used in any way to promote products developed with Insomnia REST Client . Floating Keyboard Software retains sole and exclusive ownership of all right, title and interest in and to Insomnia REST Client and all Intellectual Property rights relating thereto.
 
-Copyright law and international copyright treaty provisions protect all parts of Insomnia REST Client , products and services. No program, code, part, image, audio sample, or text may be copied or used in any way by the user except as intended within the bounds of the single user program. All rights not expressly granted hereunder are reserved for Gregory Schier.
+Copyright law and international copyright treaty provisions protect all parts of Insomnia REST Client, products and services. No program, code, part, image, audio sample, or text may be copied or used in any way by the user except as intended within the bounds of the single user program. All rights not expressly granted hereunder are reserved for Floating Keyboard Software.
 
 ### 3.4 Limitation of Responsibility
 
-You will indemnify, hold harmless, and defend Gregory Schier , its employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of Gregory Schier's Software.
+You will indemnify, hold harmless, and defend Floating Keyboard Software, its employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of Floating Keyboard Software's Software.
 
-In no event (including, without limitation, in the event of negligence) will Gregory Schier , its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to this Agreement, Insomnia REST Client or the use or inability to use Insomnia REST Client or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.
+In no event (including, without limitation, in the event of negligence) will Floating Keyboard Software, its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to this Agreement, Insomnia REST Client or the use or inability to use Insomnia REST Client or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.
 
-Gregory Schier's entire liability, without exception, is limited to the customers' reimbursement of the purchase price of the Software (maximum being the lesser of the amount paid by you and the suggested retail price as listed by Gregory Schier ) in exchange for the return of the product, all copies, registration papers and manuals, and all materials that constitute a transfer of license from the customer back to Gregory Schier.
+Floating Keyboard Software's entire liability, without exception, is limited to the customers' reimbursement of the purchase price of the Software (maximum being the lesser of the amount paid by you and the suggested retail price as listed by Floating Keyboard Software ) in exchange for the return of the product, all copies, registration papers and manuals, and all materials that constitute a transfer of license from the customer back to Floating Keyboard Software.
 
 ### 3.5 Warranties
 
-Except as expressly stated in writing, Gregory Schier makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.
+Except as expressly stated in writing, Floating Keyboard Software makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.
 
 ### 3.6 Governing Law
 
@@ -64,6 +64,6 @@ THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" AND WITHOUT WARRANTIES
 
 ### 5. CONSENT OF USE OF DATA
 
-You agree that Gregory Schier may collect and use information gathered in any manner as part of the product support services provided to you, if any, related to Insomnia REST Client. Gregory Schier may also use this information to provide notices to you which may be of use or interest to you.
+You agree that Floating Keyboard Software may collect and use information gathered in any manner as part of the product support services provided to you, if any, related to Insomnia REST Client. Floating Keyboard Software may also use this information to provide notices to you which may be of use or interest to you.
  	
 

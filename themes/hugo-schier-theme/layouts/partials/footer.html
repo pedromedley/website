@@ -21,8 +21,7 @@
             {{ end }}
 
             {{ if .Site.Params.email }}
-            <a href='mailto:{{ .Site.Params.email }}?subject={{ "Insomnia Feedback" | safeURL }}&body={{ "Hi Gregory,\n\n\n" | safeURL }}'
-               target="_blank" title="Contact">
+            <a href='/documentation/support-and-feedback/' title="Support">
                 Support
             </a>
             {{ end }}
@@ -36,7 +35,7 @@
             <a href="/eula">EULA</a>
         </p>
 
-        <p>
+        <p class="text-sm">
             &copy; {{.Now.Format "2006"}}
             <a href="{{ .Site.BaseURL }}">{{ .Site.Copyright }}</a>
         </p>
