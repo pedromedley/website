@@ -3,15 +3,19 @@ title: "Insomnia Plus Beta"
 slug: "plus"
 menu:
     docs:
-        parent: "topics"
+        parent: "starting"
+        weight: 1
 ---
 
-Welcome to the Insomnia Plus beta! Insomnia Plus is a paid add-on that 
+**_DISCLAIMER: Insomnia Plus is still in early stages, and may not be 100% stable_**
+
+Welcome to the Insomnia Plus beta, and thank you for taking the time to help
+test it! Insomnia Plus is a paid add-on that 
 enables powerful features like end-to-end encrypted sync, team collaboration,
 and more.
 
-The beta period is free so give it try. Since this is a beta, I would 
-appreciate that you
+The beta period is free so give it try. And, since this is beta, I would 
+appreciate if you
 [report bugs or pain points](/documentation/support-and-feedback/') to me
 if you have any.
 

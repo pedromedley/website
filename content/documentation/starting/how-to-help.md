@@ -4,7 +4,7 @@ slug: "how-you-can-help"
 menu:
     docs:
         parent: "starting"
-        weight: 100
+        weight: 1000
 ---
 
 _I've gotten a few emails recently asking of ways to contribute to Insomnia, so 
