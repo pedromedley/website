@@ -1,6 +1,6 @@
 ---
 title: "Insomnia Plus Beta"
-slug: "insomnia-plus"
+slug: "plus"
 xxx_menu:
     docs:
         parent: "topics"
