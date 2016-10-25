@@ -1,43 +1,50 @@
 <footer class="footer">
-    <section>
-        <p class="footer__social">
-            {{ if .Site.Params.twitter }}
-            <a href="//twitter.com/{{ .Site.Params.twitter }}" target="_blank" title="Twitter">
-                Twitter
-            </a>
-            {{ end }}
+  <section>
+    <p class="footer__social">
+      {{ if .Site.Params.twitter }}
+      <a href="//twitter.com/{{ .Site.Params.twitter }}" target="_blank"
+         title="Twitter">
+        Twitter
+      </a>
+      {{ end }}
 
-            {{ if .Site.Params.github }}
-            <a href="//github.com/{{ .Site.Params.github }}" target="_blank" title="GitHub">
-                Github
-            </a>
-            {{ end }}
+      {{ if .Site.Params.github }}
+      <a href="//github.com/{{ .Site.Params.github }}" target="_blank"
+         title="GitHub">
+        Github
+      </a>
+      {{ end }}
 
-            {{ if .Site.Params.googlePlus }}
-            <a href="//plus.google.com/+{{ .Site.Params.googlePlus }}" target="_blank"
-               title="Google+">
-                Google+
-            </a>
-            {{ end }}
+      {{ if .Site.Params.googlePlus }}
+      <a href="//plus.google.com/+{{ .Site.Params.googlePlus }}" target="_blank"
+         title="Google+">
+        Google+
+      </a>
+      {{ end }}
 
-            {{ if .Site.Params.email }}
-            <a href='/documentation/support-and-feedback/' title="Support">
-                Support
-            </a>
-            {{ end }}
+      {{ if .Site.Params.email }}
+      <a href='/documentation/support-and-feedback/' title="Support">
+        Support
+      </a>
+      {{ end }}
 
-            {{ if .RSSlink }}
-            <a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank" title="RSS">
-                RSS
-            </a>
-            {{ end }}
+      {{ if not .IsHome }}
+      {{ if .RSSlink }}
+      <a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank"
+         title="RSS">
+        RSS
+      </a>
+      {{ end }}
+      {{ end }}
 
-            <a href="/eula">EULA</a>
-        </p>
+      <a href="/eula">EULA</a>
+    </p>
 
-        <p class="text-sm">
-            &copy; {{.Now.Format "2006"}}
-            <a href="{{ .Site.BaseURL }}">{{ .Site.Copyright }}</a>
-        </p>
-    </section>
+    <p class="text-sm">
+      &copy; {{.Now.Format "2006"}}
+      <a href="{{ .Site.Params.copyrightURL }}" target="_blank">
+        {{ .Site.Copyright }}
+      </a>
+    </p>
+  </section>
 </footer>

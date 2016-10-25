@@ -47,6 +47,7 @@ taxonomies:
   tag: "tags"
   category: "categories"
 params:
+  copyrightURL: "https://floatingkeyboard.com"
   docsCategories:
     - "welcome"
     - "starting"
