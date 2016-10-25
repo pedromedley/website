@@ -1,10 +1,9 @@
 ---
 title: "Insomnia Plus Beta"
 slug: "plus"
-xxx_menu:
+menu:
     docs:
         parent: "topics"
-        hidden: true
 ---
 
 Welcome to the Insomnia Plus beta! Insomnia Plus is a paid add-on that 
@@ -18,6 +17,8 @@ if you have any.
 
 
 ## Enable Plus Features
+
+**NOTE: Make sure you are on at least v3.6.2**
 
 If you open `Settings > About` and double-click `~ Gregory`, a secret checkbox
 will appear. Once you check it, you will have access to the beta features.
