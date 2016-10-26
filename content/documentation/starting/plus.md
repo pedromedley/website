@@ -10,8 +10,8 @@ menu:
 **_DISCLAIMER: Insomnia Plus is still in early stages, and may not be 100% stable_**
 
 Welcome to the Insomnia Plus beta, and thank you for taking the time to help
-test it! Insomnia Plus is a paid add-on that enables powerful features like 
-end-to-end encrypted sync, team collaboration, and more.
+test it! Insomnia Plus is a paid add-on that enables end-to-end encrypted sync
+for individuals (team features coming soon).
 
 The beta period is **free** so give it try. And, since this is beta, I would 
 appreciate it if you
