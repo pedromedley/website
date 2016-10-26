@@ -36,6 +36,14 @@ At this time, that is not possible, but it's coming soon.
 This is currently a bug caused by Insomnia preferring IPv4 addresses over IPv6. 
 Try changing `localhost` with `[::1]` as a temporary workaround.
 
+**How can I send `application/x-www-form-urlencoded`?**<br>
+You can either change the request body tab type to _Form Encoded_, or set a
+`Content-Type` header to `application/x-www-form-urlencoded` in the _Headers_
+tab.
+
+**How can I send `multipart/form-data`?**<br>
+At this time, that is not possible, but it's coming soon.
+
 **Why don't I see anything after importing a backup?**<br>
 The import/export feature acts similarly to copying files in a filesystem. If
 the import contains data that originated from your application, data will be
