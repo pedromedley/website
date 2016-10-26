@@ -1,5 +1,6 @@
 
 .idea
 _dist
+_slim
 
 .DS_Store

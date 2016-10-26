@@ -16,7 +16,11 @@ debugging HTTP requests.
 
 ![Screenshot of Insomnia HTTP Client](/images/docs/promo.png)
 
-This documentation will show you how to get started using Insomnia in a
-productive way. 
+Here are a few useful links to get you started.
 
-~ Gregory
+- Stuck? [Frequently Asked Questions](/documentation/faq)
+- Upgrading from the Chrome app? 
+  [Upgrade Guide](/documentation/migrate-from-chrome) 
+- Need more help? [Get in Touch](/documentation/support-and-feedback)
+- Curious about the product? [Backstory](/documentation/backstory)
+

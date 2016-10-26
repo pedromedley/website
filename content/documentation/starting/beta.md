@@ -3,7 +3,7 @@ title: "Backstory"
 slug: "backstory"
 menu: 
     docs:
-        parent: "starting"
+        parent: "other"
 ---
 
 Development of Insomnia started in January of 2015. I was helping build the API platform for
