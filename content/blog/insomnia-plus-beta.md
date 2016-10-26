@@ -1,9 +1,8 @@
 ---
 date: 2016-10-25T12:20:37-07:00
 title: Insomnia Plus Is Now in Beta
-draft: true
 slug: insomnia-plus-beta
-tags: ["announcement"]
+tags: ["announcement", "beta"]
 ---
 
 _tl;dr visit the [Insomnia Plus Beta Documentation](/documentation/plus)_
@@ -32,10 +31,14 @@ server whenever changes occur. On top of this, sync is
 **end-to-end encrypted**, meaning that all data is first encrypted in the 
 app before sending it to the server. 
 
+### Encryption Overview
 Data is encrypted with a key that is derived from your account password (which 
-is not stored on the server), meaning that Insomnia (or any other third party) 
-cannot read or access your data. This is crucial for Insomnia users, because 
-Insomnia data can contain important API keys, usernames, and passwords.
+is never sent to the server), meaning that Insomnia (or any third party) 
+cannot read your data. Privacy is crucial for Insomnia users, because 
+requests often contain important API keys, usernames, and passwords.
+
+In case you're curious, or need more information, there will be a future article 
+explaining encryption and security in more detail.
 
 
 ## Team Collaboration
@@ -43,20 +46,20 @@ Insomnia data can contain important API keys, usernames, and passwords.
 _NOTE: Team collaboration is not yet available in the beta but is coming 
 soon..._
 
-Automated sync can be useful for individual users, but the same workflow doesn't
-translate to teams very well.
+Automated sync can be useful for individual users, but the same workflow does 
+not translate well to teams.
 
-Imagine working in a code editor where every line of code typed typed was 
-immediately synced to all of your coworkers computers. It would be chaos! 
-Because of this, Insomnia takes a different approach for teams, providing a 
-a manual push/pull model similar to a software development team using Git.
+Imagine working in a code editor where every line of code you typed was 
+immediately synced to all of your coworkers computers, and vice versa. It would 
+be chaos! Because of this, Insomnia takes a different approach for teams, 
+providing a a manual push/pull model similar to the version control system
+Git.
 
 
 ## Join the Beta!
 
 If you would like to help test Insomnia Plus, head over to the 
-[Getting Started Documentation](/documentation/plus) for steps on how to enable 
-it.
+[Getting Started Documentation](/documentation/plus) to learn how to enable it.
 
 As always, please send all feedback my way. 
 
