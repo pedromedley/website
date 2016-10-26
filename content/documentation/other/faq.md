@@ -1,9 +1,9 @@
 ---
-title: "Frequent Questions"
+title: "Frequently Questions"
 slug: "faq"
 menu:
     docs:
-        parent: "other"
+        parent: "starting"
 ---
 
 Here are answers to the most frequently asked questions that I receive from

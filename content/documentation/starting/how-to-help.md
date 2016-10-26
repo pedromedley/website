@@ -3,8 +3,8 @@ title: "How You Can Help"
 slug: "how-you-can-help"
 menu:
     docs:
-        parent: "starting"
-        weight: 1000
+        parent: "other"
+        weight: 50
 ---
 
 _I've gotten a few emails recently asking of ways to contribute to Insomnia, so 

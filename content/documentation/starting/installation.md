@@ -4,6 +4,7 @@ slug: "installation"
 menu:
     docs:
         parent: "starting"
+        weight: -1
 ---
 
 You can install Insomnia on a wide variety of platforms. If you have not downloaded a copy of

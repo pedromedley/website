@@ -6,7 +6,7 @@ weight: -1
 menu:
     docs:
         parent: "starting"
-        weight: -1
+        weight: -1000
 
 ---
 

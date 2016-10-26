@@ -36,6 +36,7 @@
     </header>
 
     {{ partial "post-series-notice" . }}
+    {{ partial "post-tags" . }}
 
     <section class="content container">
       <div class="row">
@@ -47,22 +48,7 @@
 
     {{ partial "post-series-notice" . }}
 
-    {{ if .Params.tags }}
-    <section class="tags">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            {{ range .Params.tags }}
-            <a class="button tags__tag"
-               href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">
-              {{ . }}
-            </a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </section>
-    {{ end }}
+    {{ partial "post-tags" . }}
 
     {{ if .Site.Params.enableAuthor }}
     <footer class="container">

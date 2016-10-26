@@ -1,9 +1,9 @@
 ---
-title: "Join the Beta"
-slug: "3_0-beta"
-__menu: 
+title: "Backstory"
+slug: "backstory"
+menu: 
     docs:
-        parent: "starting"
+        parent: "other"
 ---
 
 Version 3.0 of Insomnia is in public beta. You can download a copy for Mac, Windows, and Linux at 
