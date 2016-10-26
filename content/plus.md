@@ -1,16 +1,16 @@
 ---
 title: "Insomnia Plus"
 slug: "plus"
-subTitle: "Coming soon..."
+subTitle: "Now in Beta"
 ---
 
-## Hi There!
+## Hi there,
 
-Insomnia Plus will be launching soon! 
+Insomnia Plus is currently in beta, so is **free** for now! If you would like
+to participate in the beta and help test it out, head over to the
+[Insomnia Plus Documentation](/documentation/plus) to get started.
 
-If you're interested, or want to learn more, please reach out.
-
-<a href="/documentation/support-and-feedback" class="button">Send an Email</a>
+Thanks for using Insomnia!
       
 ~ Gregory
 

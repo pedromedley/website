@@ -10,19 +10,18 @@ menu:
 **_DISCLAIMER: Insomnia Plus is still in early stages, and may not be 100% stable_**
 
 Welcome to the Insomnia Plus beta, and thank you for taking the time to help
-test it! Insomnia Plus is a paid add-on that 
-enables powerful features like end-to-end encrypted sync, team collaboration,
-and more.
+test it! Insomnia Plus is a paid add-on that enables powerful features like 
+end-to-end encrypted sync, team collaboration, and more.
 
-The beta period is free so give it try. And, since this is beta, I would 
-appreciate if you
-[report bugs or pain points](/documentation/support-and-feedback/') to me
-if you have any.
+The beta period is **free** so give it try. And, since this is beta, I would 
+appreciate it if you
+[report any bugs or pain points](/documentation/support-and-feedback/') to me
+so I can address your issues.
 
 
 ## Enable Plus Features
 
-**NOTE: Make sure you are on at least v3.6.2**
+**NOTE: Make sure you have a minimum of v3.6.2 installed**
 
 If you open `Settings > About` and double-click `~ Gregory`, a secret checkbox
 will appear. Once you check it, you will have access to the beta features.
@@ -35,15 +34,15 @@ then fill in your information.
 
 **DO NOT LOSE YOUR PASSWORD!**
 Your password is used to encrypt/decrypt your data and is never sent to the 
-server, so we cannot reset it for you. I recommend keeping it safe in a 
-password manager such as [1Password](https://1password.com/) or 
+server, so we cannot reset it for you! I recommend keeping it safe in a 
+password manager like [1Password](https://1password.com/) or 
 [LastPass](https://lastpass.com/).
 
 _NOTE: You will be able to change your password in the future, but only if you
 have a copy of your old one._
 
-Once you signup, you will receive a verification email. Once you click the link
-inside the email, you will be able to log in.
+Once you signup, you will receive a verification email. Click the activation 
+link inside, then log in to the app.
 
 
 ## Configure Data Sync

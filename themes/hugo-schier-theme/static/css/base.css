@@ -17,16 +17,16 @@ main {
 /* ~~~~~~~~~~~~ */
 
 a {
+    color: #1975ff;
     text-decoration: none;
-    color: #7f62f3;
-}
-
-a * {
-    color: inherit !important;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+a * {
+    color: inherit !important;
 }
 
 * {
@@ -54,11 +54,27 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 600;
 }
 
 p, ul {
@@ -123,6 +139,14 @@ header.header--big {
 
 article header * {
     margin: 0;
+}
+
+article header p {
+    font-size: 1.3rem;
+}
+
+article header time {
+    color: #666;
 }
 
 article footer {
@@ -242,18 +266,23 @@ pre > code {
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .button--inline {
     display: inline-block;
 }
 
-.button:hover {
+.button[disabled] {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.button:not([disabled]):hover {
     background: #675BC0;
 }
 
-.button:hover, .button:hover * {
+.button:not([disabled]):hover, .button:not([disabled]):hover * {
     text-decoration: none;
     color: #fff;
 }

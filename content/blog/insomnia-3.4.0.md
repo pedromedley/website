@@ -2,6 +2,7 @@
 date: 2016-09-13T11:41:49-07:00
 title: "Insomnia 3.4.0 Changelog"
 slug: "3.4.0-changelog"
+tags: ["update"]
 ---
 
 Exactly one week ago Insomnia reached #1 on HackerNews, generating around

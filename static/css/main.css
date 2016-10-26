@@ -1,3 +1,15 @@
+/* ~~~~~ */
+/* LINKS */
+/* ~~~~~ */
+
+a {
+    color: hsl(251, 85%, 66%);
+}
+
+a:hover {
+    color: hsl(251, 60%, 55%);
+}
+
 /* ~~~~~~~~~ */
 /* JUMBOTRON */
 /* ~~~~~~~~~ */
@@ -165,11 +177,11 @@ img.jumbotron__icon {
 }
 
 .pricing__column__body {
-    padding: 2rem 2rem;
+    padding: 1.5rem;
 }
 
 .pricing__column__body h2 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin-top: 0;
     padding-bottom: 1rem;
 }
