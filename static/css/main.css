@@ -157,6 +157,7 @@ img.jumbotron__icon {
 /* ~~~~~~~~~~~~~ */
 
 .pricing {
+    margin-top: 1rem;
 }
 
 .pricing__column {

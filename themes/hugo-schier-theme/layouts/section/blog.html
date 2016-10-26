@@ -4,10 +4,26 @@
 {{ partial "navbar" . }}
 
 <main role="main">
-    {{ with .Paginate (where .Data.Pages.ByDate.Reverse "Type" "blog") 10 }}
-    {{ partial "post-list" . }}
-    {{ end }}
-    {{ partial "pagination" . }}
+  <header class="container header--big">
+    <div class="row">
+      <div class="col-12">
+        <h1>Welcome to the Blog!</h1>
+        <p>
+          <a href="{{ .RSSlink }}"
+             class="button"
+             type="application/rss+xml"
+             target="_blank"
+             title="RSS">
+            Subscribe via RSS
+          </a>
+        </p>
+      </div>
+    </div>
+  </header>
+  {{ with .Paginate (where .Data.Pages.ByDate.Reverse "Type" "blog") 10 }}
+  {{ partial "post-list" . }}
+  {{ end }}
+  {{ partial "pagination" . }}
 </main>
 
 {{ partial "footer" . }}

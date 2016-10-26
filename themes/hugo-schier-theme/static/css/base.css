@@ -145,7 +145,7 @@ article section {
 
 header.header--big {
     text-align: center;
-    padding: 3rem 0;
+    padding: 3rem 0 2rem 0;
 }
 
 article header * {
@@ -218,6 +218,44 @@ pre > code {
     height: 1em;
     text-align: center;
 }
+/* ~~~~~~~ */
+/* BUTTONS */
+/* ~~~~~~~ */
+
+.button {
+    display: inline-block;
+    text-align: center;
+    min-width: 4em;
+    box-sizing: border-box;
+    padding: 0.5em 0.8em;
+    margin: auto;
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.button--inline {
+    display: inline-block;
+}
+
+.button[disabled] {
+    cursor: default;
+    opacity: 0.4;
+}
+
+.button:not([disabled]):hover {
+    background: #675BC0;
+}
+
+.button:not([disabled]):hover,
+.button:not([disabled]):hover * {
+    text-decoration: none;
+    color: #fff;
+}
 
 /* ~~~~~~~ */
 /* HELPERS */
@@ -260,44 +298,6 @@ pre > code {
     margin-top: 3rem;
 }
 
-/* ~~~~~~~ */
-/* BUTTONS */
-/* ~~~~~~~ */
-
-.button {
-    display: inline-block;
-    text-align: center;
-    min-width: 4rem;
-    box-sizing: border-box;
-    padding: 0.5rem 0.8rem;
-    margin: auto;
-    font-size: 1rem;
-    background: transparent;
-    border: 1px solid;
-    border-radius: 4px;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.2s ease;
-}
-
-.button--inline {
-    display: inline-block;
-}
-
-.button[disabled] {
-    cursor: default;
-    opacity: 0.4;
-}
-
-.button:not([disabled]):hover {
-    background: #675BC0;
-}
-
-.button:not([disabled]):hover,
-.button:not([disabled]):hover * {
-    text-decoration: none;
-    color: #fff;
-}
 
 /* ~~~~~~ */
 /* THEMES */
