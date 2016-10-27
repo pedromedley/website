@@ -1,5 +1,5 @@
 ---
-title: "Insomnia Plus Beta"
+title: "Cloud Sync Beta"
 slug: "plus"
 menu:
     docs:
@@ -7,7 +7,7 @@ menu:
         weight: 1
 ---
 
-**_DISCLAIMER: Insomnia Plus is still in early stages, and may not be 100% stable_**
+**_DISCLAIMER: Insomnia Plus cloud sync is still in early stages_**
 
 Welcome to the Insomnia Plus beta, and thank you for taking the time to help
 test it! Insomnia Plus is a paid add-on that enables end-to-end encrypted sync
@@ -21,10 +21,10 @@ so I can address your issues.
 
 ## Enable Plus Features
 
-**NOTE: Make sure you have a minimum of v3.6.2 installed**
+**NOTE: Make sure you have a minimum of v3.6.6 installed**
 
-If you open `Settings > About` and double-click `~ Gregory`, a secret checkbox
-will appear. Once you check it, you will have access to the beta features.
+Scroll to the bottom of the settings screen and check the checkbox to enable
+the sync beta features.
 
 
 ## Signup and Login 
