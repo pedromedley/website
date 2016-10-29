@@ -11,8 +11,8 @@
     "deploy:surge": "npm run deploy:push",
     "deploy:push": "surge _speedpack",
     "deploy": "npm run build && npm run deploy:surge",
-    "run:dev": "hugo serve --buildDrafts",
-    "run": "hugo serve"
+    "dev": "hugo serve --buildDrafts",
+    "start": "hugo serve"
   },
   "repository": {
     "type": "git",

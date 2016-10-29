@@ -1,18 +1,20 @@
 # Insomnia Landing
 
-This is the source code for [insomnia.rest](https://insomnia.rest), build using
-[Hugo](https://gohugo.io/).
-
-## How to Build
+This is the source code for [insomnia.rest](https://insomnia.rest), built with
+[Hugo Static Website Engine](https://gohugo.io/) and 
+[Speedpack](https://github.com/gschier/speedpack) to compress static assets on
+deploy.
 
 ```shell
+# run watch server (production)
+npm start
+
+# run watch server (with drafts)
+npm run dev
+
+# build to _hugo/
 npm run build
-```
 
-## How to Deploy
-
-_NOTE: Deploying requires access to the [Surge.sh](https://surge.sh/) account._
-
-```shell
+# deploy (need Surge.sh access)
 npm run deploy
 ```
