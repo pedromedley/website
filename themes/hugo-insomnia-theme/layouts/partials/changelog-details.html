@@ -1,5 +1,13 @@
+{{ if .Content }}
+{{ .Content }}
+{{ else }}
+<p>
+  Version {{ .Slug }} is here!
+</p>
+{{ end }}
+
 {{ if isset .Params "major" }}
-<strong>Major Changes</strong>
+<p><strong>Major Changes</strong></p>
 <ul>
   {{ range .Params.major }}
   <li>{{ . }}</li>
@@ -8,7 +16,7 @@
 {{ end }}
 
 {{ if isset .Params "fixes" }}
-<strong>Fixes</strong>
+<p><strong>Fixes</strong></p>
 <ul>
   {{ range .Params.fixes }}
   <li>{{ . }}</li>
@@ -17,7 +25,7 @@
 {{ end }}
 
 {{ if isset .Params "minor" }}
-<strong>Minor Changes</strong>
+<p><strong>Minor Changes</strong></p>
 <ul>
   {{ range .Params.minor }}
   <li>{{ . }}</li>
