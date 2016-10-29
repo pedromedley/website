@@ -61,7 +61,7 @@ params:
   shortName: "Insomnia 3.0"
   bio: "Independant software developer"
   location: "Victoria BC, Canada"
-  description: "A simple yet powerful REST API Client with cookie management, environment variables, code generation, and authentication for Mac, Window, and Linux"
+  description: "A powerful REST API Client with cookie management, environment variables, code generation, and authentication for Mac, Window, and Linux"
   twitter: "GetInsomnia"
   googlePlus: "InsomniaRest"
   keepReadingStr: "Read More"

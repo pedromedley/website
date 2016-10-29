@@ -1,0 +1,29 @@
+{
+  "name": "insomnia-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:clean": "rm -rf _hugo _speedpack",
+    "build:generate": "hugo --destination _hugo",
+    "build:pack": "speedpack _hugo --output _speedpack",
+    "build": "npm run build:clean && npm run build:generate && npm run build:pack",
+    "deploy:surge": "npm run deploy:push",
+    "deploy:push": "surge _speedpack",
+    "deploy": "npm run build && npm run deploy:surge",
+    "run:dev": "hugo serve --buildDrafts",
+    "run": "hugo serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gschier/insomnia-landing.git"
+  },
+  "author": "Gregory Schier <gschier1990@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/gschier/insomnia-landing/issues"
+  },
+  "homepage": "https://github.com/gschier/insomnia-landing#readme",
+  "devDependencies": {
+    "speedpack": "^0.1.2"
+  }
+}

@@ -1,6 +1,8 @@
 
 .idea
-_dist
-_slim
+_speedpack
+_hugo
+
+node_modules
 
 .DS_Store

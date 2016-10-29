@@ -1,0 +1,12 @@
+[
+{{ $total := len .Data.Pages }}
+{{ range $i, $page := .Data.Pages }}
+{
+"version": "{{ .Params.version }}"
+{{ if eq $i (add $total -1) }}
+}
+{{ else }}
+},
+{{ end }}
+{{ end }}
+]
