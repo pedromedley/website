@@ -223,6 +223,17 @@ pre > code {
     height: 1em;
     text-align: center;
 }
+
+/* ~~~~~~~~~~ */
+/* PAGINATION */
+/* ~~~~~~~~~~ */
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* ~~~~~~~ */
 /* BUTTONS */
 /* ~~~~~~~ */
