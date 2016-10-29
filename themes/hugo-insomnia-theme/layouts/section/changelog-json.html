@@ -8,7 +8,7 @@
 {{ if isset .Params "major" }}
 {{ $majorTotal := len .Params.major }}
 {{ range $i, $v := .Params.major }}
-"{{ . }}"{{ if eq $i (add $majorTotal -1) }}{{ else }},{{ end }}
+"{{ . | safeJS }}"{{ if eq $i (add $majorTotal -1) }}{{ else }},{{ end }}
 {{ end }}
 {{ end }}
 ],
@@ -16,7 +16,7 @@
 {{ if isset .Params "fixes" }}
 {{ $fixesTotal := len .Params.fixes }}
 {{ range $i, $v := .Params.fixes }}
-"{{ . }}"{{ if eq $i (add $fixesTotal -1) }}{{ else }},{{ end }}
+"{{ . | safeJS }}"{{ if eq $i (add $fixesTotal -1) }}{{ else }},{{ end }}
 {{ end }}
 {{ end }}
 ],
@@ -24,7 +24,7 @@
 {{ if isset .Params "minor" }}
 {{ $minorTotal := len .Params.minor }}
 {{ range $i, $v := .Params.minor }}
-"{{ . }}"{{ if eq $i (add $minorTotal -1) }}{{ else }},{{ end }}
+"{{ . | safeJS }}"{{ if eq $i (add $minorTotal -1) }}{{ else }},{{ end }}
 {{ end }}
 {{ end }}
 ]
