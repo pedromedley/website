@@ -118,6 +118,7 @@ article.article--preview .article--preview__content {
 }
 
 article.article--preview .article--preview__footer {
+    margin-bottom: 1rem;
 }
 
 article.article--preview .article--preview__footer .tags__tag {
@@ -136,7 +137,7 @@ article.article--preview h1 {
     font-size: 1.9rem;
 }
 
-.article--preview section {
+article.article--preview section {
     margin: 0;
 }
 
