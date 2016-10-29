@@ -1,8 +1,9 @@
 {
-  "name": "insomnia-landing",
+  "name": "insomnia-website",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Website for https://insomnia.rest",
+  "author": "Gregory Schier <gschier1990@gmail.com>",
   "scripts": {
     "build:clean": "rm -rf _hugo _speedpack",
     "build:generate": "hugo --destination _hugo",
@@ -16,13 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gschier/insomnia-landing.git"
+    "url": "git+https://github.com/getinsomnia/website.git"
   },
-  "author": "Gregory Schier <gschier1990@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gschier/insomnia-landing/issues"
-  },
-  "homepage": "https://github.com/gschier/insomnia-landing#readme",
+  "homepage": "https://github.com/getinsomnia/website#readme",
   "devDependencies": {
     "speedpack": "^0.1.2"
   }
