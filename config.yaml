@@ -4,7 +4,7 @@ languageCode: "en-us"
 copyright: "Floating Keyboard Software. Suite 219, 770 Fisgard St, Victoria BC, Canada"
 title: "Insomnia REST Client"
 theme: "hugo-insomnia-theme"
-publishdir: "_dist"
+publishdir: "_hugo"
 disqusShortname: "insomnia-rest"
 googleAnalytics: "UA-9837747-12"
 permalinks:
