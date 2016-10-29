@@ -5,15 +5,16 @@
   "description": "Website for https://insomnia.rest",
   "author": "Gregory Schier <gschier1990@gmail.com>",
   "scripts": {
+    "task:changelog": "rm -rf ./content/changelog-json && cp -r ./content/changelog ./content/changelog-json",
     "build:clean": "rm -rf _hugo _speedpack",
-    "build:generate": "hugo --destination _hugo",
+    "build:generate": "npm run task:changelog && hugo --destination _hugo",
     "build:pack": "speedpack _hugo --output _speedpack",
     "build": "npm run build:clean && npm run build:generate && npm run build:pack",
     "deploy:surge": "npm run deploy:push",
     "deploy:push": "surge _speedpack",
     "deploy": "npm run build && npm run deploy:surge",
-    "dev": "hugo serve --buildDrafts",
-    "start": "hugo serve"
+    "dev": "npm run task:changelog && hugo serve --buildDrafts",
+    "start": "npm run task:changelog && hugo serve"
   },
   "repository": {
     "type": "git",

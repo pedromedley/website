@@ -12,6 +12,13 @@ main {
     min-height: 50vh;
 }
 
+hr {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    background: none;
+    margin: 3rem
+}
+
 /* ~~~~~~~~~~~~ */
 /* BASIC STYLES */
 /* ~~~~~~~~~~~~ */
@@ -111,8 +118,6 @@ article.article--preview .article--preview__content {
 }
 
 article.article--preview .article--preview__footer {
-    margin-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 article.article--preview .article--preview__footer .tags__tag {
@@ -131,7 +136,7 @@ article.article--preview h1 {
     font-size: 1.9rem;
 }
 
-article.article--preview p {
+.article--preview section {
     margin: 0;
 }
 

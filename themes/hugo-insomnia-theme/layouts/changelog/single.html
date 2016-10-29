@@ -12,7 +12,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1>Insomnia <code>{{ .Params.version }}</code> Release</h1>
+            <h1>Insomnia <code>{{ .Slug }}</code> Release</h1>
             <div class="meta">
               <time datetime='{{ .Date.Format "02 January 2006" }}'>
                 {{ .Date.Format "02 January, 2006" }}
@@ -29,32 +29,7 @@
       <div class="row">
         <div class="col-12">
           {{ .Content }}
-          {{ if isset .Params "major" }}
-          <strong>Major Changes</strong>
-          <ul>
-          {{ range .Params.major }}
-            <li>{{ . }}</li>
-          {{ end }}
-          </ul>
-          {{ end }}
-
-          {{ if isset .Params "fixes" }}
-          <strong>Fixes</strong>
-          <ul>
-            {{ range .Params.fixes }}
-            <li>{{ . }}</li>
-            {{ end }}
-          </ul>
-          {{ end }}
-
-          {{ if isset .Params "minor" }}
-          <strong>Minor Changes</strong>
-          <ul>
-            {{ range .Params.minor }}
-            <li>{{ . }}</li>
-            {{ end }}
-          </ul>
-          {{ end }}
+          {{ partial "changelog-details" . }}
         </div>
       </div>
     </section>

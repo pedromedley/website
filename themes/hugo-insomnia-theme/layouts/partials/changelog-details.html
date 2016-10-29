@@ -1,0 +1,27 @@
+{{ if isset .Params "major" }}
+<strong>Major Changes</strong>
+<ul>
+  {{ range .Params.major }}
+  <li>{{ . }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ if isset .Params "fixes" }}
+<strong>Fixes</strong>
+<ul>
+  {{ range .Params.fixes }}
+  <li>{{ . }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ if isset .Params "minor" }}
+<strong>Minor Changes</strong>
+<ul>
+  {{ range .Params.minor }}
+  <li>{{ . }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+

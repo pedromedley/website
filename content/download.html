@@ -4,58 +4,79 @@ subTitle: "Stop wasting time in your command line and `GET` some `REST`"
 ---
 
 <div class="row center">
-    <div class="col-4 platform-download">
-        <i class="fa fa-apple platform-download__icon bg-mac"></i>
-        <p>
-            <a href="https://builds.insomnia.rest/downloads/mac/latest" class="button">
-                <i class="fa fa-download"></i>
-                OS X 10.8+
-            </a>
-        </p>
-    </div>
-    <div class="col-4 platform-download">
-        <i class="fa fa-windows platform-download__icon bg-windows"></i>
-        <p>
-            <a href="https://builds.insomnia.rest/downloads/windows/latest" class="button">
-                <i class="fa fa-download"></i>
-                Windows 7+
-            </a>
-            <br>
-            <span class="subtle"><span class="subtle">(64-bit only)</span></span>
-        </p>
-    </div>
-    <div class="col-4 platform-download">
-        <i class="fa fa-linux platform-download__icon bg-linux"></i>
-        <p>
-            <a href="https://builds.insomnia.rest/downloads/ubuntu/latest" class="button">
-                <i class="fa fa-download"></i>
-                Ubuntu 14.04+
-            </a>
-        </p>
-        <p class="subtle" style="max-width:12rem;margin:auto;">
-            Another distro? Download the
-            <a href="https://builds.insomnia.rest/downloads/linux/latest">
-                Generic Package
-            </a> (AppImage)
-        </p>
-    </div>
+  <div class="col-4 platform-download">
+    <i class="fa fa-apple platform-download__icon bg-mac"></i>
+    <p>
+      <a href="https://builds.insomnia.rest/downloads/mac/latest"
+         class="button">
+        <i class="fa fa-download"></i>
+        OS X 10.8+
+      </a>
+    </p>
+  </div>
+  <div class="col-4 platform-download">
+    <i class="fa fa-windows platform-download__icon bg-windows"></i>
+    <p>
+      <a href="https://builds.insomnia.rest/downloads/windows/latest"
+         class="button">
+        <i class="fa fa-download"></i>
+        Windows 7+
+      </a>
+      <br>
+      <span class="subtle"><span class="subtle">(64-bit only)</span></span>
+    </p>
+  </div>
+  <div class="col-4 platform-download">
+    <i class="fa fa-linux platform-download__icon bg-linux"></i>
+    <p>
+      <a href="https://builds.insomnia.rest/downloads/ubuntu/latest"
+         class="button">
+        <i class="fa fa-download"></i>
+        Ubuntu 14.04+
+      </a>
+    </p>
+    <p class="subtle" style="max-width:12rem;margin:auto;">
+      Another distro? Download the
+      <a href="https://builds.insomnia.rest/downloads/linux/latest">
+        Generic Package
+      </a> (AppImage)
+    </p>
+  </div>
+</div>
+<div class="row center">
+  <div class="col-12">
+    <hr>
+  </div>
+</div>
+<div class="row center">
+  <div class="col-3">
+  </div>
+  <div class="col-6">
+    <h2>Looking for more?</h2>
+    <p class="text-lg">
+      Click the link below to view the release notes for all previous versions.
+    </p>
+    <a href="/changelog" class="button">
+      Visit Release Notes
+    </a>
+  </div>
 </div>
 
 <script>
-    var downloadUrl = null;
+  var downloadUrl = null;
 
-    if (window.location.hash === '#mac') {
-        downloadUrl = 'http://builds.insomnia.rest/downloads/mac/latest'
-    } else if (window.location.hash === '#windows') {
-        downloadUrl = 'http://builds.insomnia.rest/downloads/windows/latest'
-    } else if (window.location.hash === '#linux') {
-        downloadUrl = 'http://builds.insomnia.rest/downloads/ubuntu/latest'
-    }
+  if (window.location.hash === '#mac') {
+    downloadUrl = 'http://builds.insomnia.rest/downloads/mac/latest'
+  } else if (window.location.hash === '#windows') {
+    downloadUrl = 'http://builds.insomnia.rest/downloads/windows/latest'
+  } else if (window.location.hash === '#linux') {
+    downloadUrl = 'http://builds.insomnia.rest/downloads/ubuntu/latest'
+  }
 
-    if (downloadUrl) {
-        window.location.hash = '#';
-        setTimeout(function () {
-            window.location = downloadUrl;
-        }, 300);
-    }
+  if (downloadUrl) {
+    window.location.hash = '#';
+    setTimeout(function () {
+      window.location = downloadUrl;
+    }, 300);
+  }
 </script>

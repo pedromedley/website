@@ -22,12 +22,6 @@
       </a>
       {{ end }}
 
-      {{ if .Site.Params.email }}
-      <a href='/documentation/support-and-feedback/' title="Support">
-        Support
-      </a>
-      {{ end }}
-
       {{ if not .IsHome }}
       {{ if .RSSlink }}
       <a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank"
@@ -37,7 +31,11 @@
       {{ end }}
       {{ end }}
 
-      <a href="/eula">EULA</a>
+      {{ if .Site.Menus.footer }}
+      {{ range .Site.Menus.footer }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+      {{ end }}
     </p>
 
     <p class="text-sm">

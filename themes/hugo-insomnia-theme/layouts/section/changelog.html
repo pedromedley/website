@@ -7,7 +7,7 @@
   <header class="container header--big">
     <div class="row">
       <div class="col-12">
-        <h1>Insomnia Release Notes</h1>
+        <h1>Insomnia Changelog</h1>
         <p>
           <a href="{{ .RSSlink }}"
              class="button"
@@ -21,7 +21,7 @@
     </div>
   </header>
   {{ with .Paginate (where .Data.Pages.ByDate.Reverse "Type" "changelog") 10 }}
-  {{ partial "post-list" . }}
+  {{ partial "changelog-list" . }}
   {{ end }}
   {{ partial "pagination" . }}
 </main>
