@@ -41,7 +41,7 @@
   </script>
 
   {{ if .IsPage }}
-  <!-- Twitter Summary Card -->
+  <!-- Twitter Summary Card (Content) -->
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content="@{{ .Site.Params.twitter }}"/>
   <meta name="twitter:title" content="{{ .Title }}"/>
@@ -49,8 +49,8 @@
         content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
   <meta name="twitter:image"
         content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
-  {{ else }}
-  <!-- Full Twitter Card -->
+  {{ else if .IsHome }}
+  <!-- Full Twitter Card (Home Page) -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
   <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
@@ -58,8 +58,16 @@
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
   <meta name="twitter:image"
         content="{{ .Site.BaseURL }}images/twitter-promo.png">
+  {{ else if .IsNode }}
+  <!-- Twitter Summary Card (List Page -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@{{ .Site.Params.twitter }}"/>
+  <meta name="twitter:title" content="{{ .Title }} for {{ .Site.Params.shortName }}"/>
+  <meta name="twitter:description"
+        content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+  <meta name="twitter:image"
+        content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
   {{ end }}
-
   <!-- /Twitter Card -->
 
   <!-- RSS -->
