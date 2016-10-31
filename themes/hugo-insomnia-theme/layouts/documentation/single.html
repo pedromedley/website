@@ -4,40 +4,50 @@
 {{ partial "navbar" . }}
 
 <main role="main">
-    <div class="container">
-        <div class="row">
-            {{ partial "docs-sidebar" . }}
-            <div class="col-8">
-                <article class="docs-main">
-                    <header>
-                        <h1>{{ .Title | title }}</h1>
-                        {{ if isset .Params "subtitle" }}
-                        <p class="text-lg">{{ .Params.subtitle | markdownify }}</p>
-                        {{ end }}
-                    </header>
+  <div class="container">
+    <div class="row">
+      {{ partial "docs-sidebar" . }}
+      <div class="col-8">
+        <article class="docs-main">
+          <header>
+            <h1>{{ .Title | title }}</h1>
+            {{ if isset .Params "subtitle" }}
+            <p class="text-lg">{{ .Params.subtitle | markdownify }}</p>
+            {{ end }}
+          </header>
 
-                    <section class="content">
-                        {{ .Content }}
-                    </section>
-                </article>
-            </div>
-        </div>
+          <section class="content">
+            {{ .Content }}
+          </section>
+
+          <footer>
+            <p class="notice">
+              Contribute to this page on
+              <a target="_blank"
+                 href="{{ .Site.Params.repo }}/blob/master/content/{{ .File.Path }}">
+                GitHub
+              </a>
+            </p>
+          </footer>
+        </article>
+      </div>
     </div>
+  </div>
 
-    <section class="dark no-margin padding-bottom padding-top">
-        <div class="container">
-            <div class="row center">
-                <div class="col-8">
-                    <p class="no-margin" style="margin: 0.6rem;">
-                        Want to talk more? Just reach out, I'd love to help!
-                    </p>
-                </div>
-                <div class="col-4">
-                    {{ partial "contact-button" . }}
-                </div>
-            </div>
+  <section class="dark no-margin padding-bottom padding-top">
+    <div class="container">
+      <div class="row center">
+        <div class="col-8">
+          <p class="no-margin" style="margin: 0.6rem;">
+            Want to talk more? Just reach out, I'd love to help!
+          </p>
         </div>
-    </section>
+        <div class="col-4">
+          {{ partial "contact-button" . }}
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 {{ partial "footer" . }}

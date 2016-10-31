@@ -63,5 +63,3 @@ If you would like to help test Insomnia Plus, head over to the
 
 As always, please send all feedback my way. 
 
-~ Gregory
-

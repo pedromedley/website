@@ -57,8 +57,10 @@ author:
 taxonomies:
   tag: "tags"
   category: "categories"
+  series: "series"
 params:
   copyrightURL: "https://floatingkeyboard.com"
+  repo: "https://github.com/getinsomnia/website"
   docsCategories:
     - "welcome"
     - "starting"

@@ -12,7 +12,7 @@
         {{ if isset .Params "series" }}
         {{ with .Params.series }}
         –
-        <a href="{{ $.Site.BaseURL }}series/{{ index . 0 | urlize }}"
+        <a href="/series/{{ index . 0 | urlize }}"
            title="This post is part of the {{ index . 0 | title }} blog series">
           {{ index . 0 }}
         </a>

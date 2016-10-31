@@ -45,6 +45,5 @@ That's it! Now you can carry on with your work and enjoy the new features of 3.0
 [global environments](/documentation/environment-variables), and
 [code snippet generation](/documentation/code-snippets).
 
-
 ~ Gregory
 

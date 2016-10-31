@@ -110,6 +110,54 @@ article {
     margin-bottom: 3rem;
 }
 
+article ul {
+    padding-left: 1.5rem;
+}
+
+article ul ul {
+    margin: 0;
+}
+
+article table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+article table th {
+    text-align: left;
+    font-weight: 600;
+}
+
+article table th,
+article table td {
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+}
+
+article table th,
+article table td {
+    border-right: 1px solid #e2e2e2;
+}
+
+article table {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 2rem;
+}
+
+article table th:last-child,
+article table td:last-child {
+    border-right: 0;
+}
+
+article table thead th {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+article table tbody tr:nth-child(odd) {
+    background: #f8f8f8;
+}
+
 article.article--preview {
     margin: 2rem auto;
 }
@@ -152,6 +200,16 @@ article section {
 header.header--big {
     text-align: center;
     padding: 3rem 0 2rem 0;
+}
+
+article .notice {
+    display: block;
+    border: 1px dashed #d0d0d0;
+    padding: 1rem;
+    text-align: center;
+    color: #999;
+    margin: 0;
+    border-radius: 0.25rem;
 }
 
 article header * {

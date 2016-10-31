@@ -24,7 +24,7 @@
               {{ with .Params.series }}
               –
               <a href="{{ $.Site.BaseURL }}series/{{ index . 0 | urlize }}"
-                 title="This post is part of the {{ index . 0 | title }} blog series">
+                 title="This post is part of the {{ index . 0 }} blog series">
                 {{ index . 0 }}
               </a>
               {{ end }}
@@ -35,8 +35,8 @@
       </div>
     </header>
 
-    {{ partial "post-series-notice" . }}
     {{ partial "post-tags" . }}
+    {{ partial "post-series-notice" . }}
 
     <section class="content container">
       <div class="row">
@@ -47,7 +47,6 @@
     </section>
 
     {{ partial "post-series-notice" . }}
-
     {{ partial "post-tags" . }}
 
     {{ if .Site.Params.enableAuthor }}
