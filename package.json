@@ -13,8 +13,8 @@
     "deploy:surge": "npm run deploy:push",
     "deploy:push": "surge _speedpack",
     "deploy": "npm run build && npm run deploy:surge",
-    "dev": "npm run task:changelog && hugo serve --buildDrafts",
-    "start": "npm run task:changelog && hugo serve"
+    "dev": "npm run task:changelog && hugo serve --buildDrafts --bind 0.0.0.0",
+    "start": "npm run task:changelog && hugo serve --bind 0.0.0.0"
   },
   "repository": {
     "type": "git",
