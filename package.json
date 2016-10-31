@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Website for https://insomnia.rest",
   "author": "Gregory Schier <gschier1990@gmail.com>",
+  "licence": "MIT",
   "scripts": {
     "task:changelog": "rm -rf ./content/changelog-json && cp -r ./content/changelog ./content/changelog-json",
     "build:clean": "rm -rf _hugo _speedpack",
