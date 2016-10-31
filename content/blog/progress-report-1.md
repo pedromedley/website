@@ -1,13 +1,12 @@
 ---
 date: 2016-10-30T11:39:42-07:00
-title: Update 1 – First Four Months
-slug: update-1
+title: Progress Report 1 – First Four Months
+slug: progress-report-1
 series: ["transparency"]
 tags: ["company", "stats"]
-draft: true
 ---
 
-One of my goals before transitioning to Insomnia full-time was to share as much 
+One major goal when transitioning to Insomnia full-time was to share as much 
 about the process as possible. As an independent developer with little time, 
 success heavily relies on the effective use of shared knowledge, tools, 
 resources, and peers. Without things like blog posts, open source, and friends, 
@@ -48,8 +47,8 @@ As you can see, most of the user base can be attributed to being featured on
 Hacker News in early September. Since then, retention has been high and growth
 has been steady but slow. High retention is good. Slow growth either means I'm
 doing a poor job at getting the word out, or the target market is too small.
-I have a suspicion it's the former, because I haven't done much in terms of
-marketing or PR.
+I have a suspicion it's the former, because similar applications exist with
+millions of users.
 
 ### Website Traffic
 
@@ -85,9 +84,9 @@ know.
 
 | Value    | Description            |
 |----------|------------------------|
+| 110,000  | sessions               |
 | 00:01:22 | average session length |
 | 54%      | average bounce rate    |
-| 110,000  | sessions               |
 
 **General Stats**
 
@@ -115,21 +114,21 @@ know.
 
 Insomnia currently has no premium features, so has been unable to
 generate revenue. However, A beta version of the first paid feature (sync) is 
-almost complete, and an additional team collaboration features are in the works. 
-Hopefully you will see this number increase in the next post.
+almost complete, and additional team collaboration features are in the works. 
+This number should be greater than zero in the next post.
 
 
 ## Time Allocation, Priorities, and Roadmap
 
-The last four month have been crazy. I began full-time work on Insomnia
-on July 5th, and launched the Insomnia 3.0 app on
+The last four month have been crazy. Full-time work on Insomnia
+began on July 5th, and the app launched on
 [July 24th](/changelog/3.0.10/). Effectively, the last four months
 looked like this.
 
-- **July** – Getting ready for initial public launch
+- **July** – Finish development for initial public launch
 - **August** – Implement remaining core features (environments, and cookie support)
 - **September** – Bug fixes, website, small improvements, and talking to users
-- **October** – Researching and implementing cloud sync features
+- **October** – Research and implement cloud sync features
 
 I don't have the next four months planned out, so I can't tell you exactly what 
 will happen, but I do have some general goals. 
@@ -149,23 +148,24 @@ probably have a separate blog post written about it.
 
 - Talking to users takes is extremely valuable, but takes a lot of time
     - [Help Scout](https://www.helpscout.net/) has helped make email more efficient
-- Code quality mostly only matters for the core components
+- Code quality usually only matters for the core components
     - Because those are the hardest parts to refactor
     - For Insomnia, it's the data model and storage system
 - Hosting Electron apps (50MB each) on S3 is expensive
-    - Was $200/mo after Hacker News post
+    - $200/mo after Hacker News post
     - Used [Cloudflare](https://www.cloudflare.com/) to cut costs (now $10/mo)
 - People don't like receiving app updates every day (who knew!?)
-- Working at home makes me feel like a slob
+- Working at home makes you feel like a slob
     - Have transitioned to coffee shops
+- Cloud sync is more complicated than expected
     
 ## Wrap Up
 
 Overall, Insomnia is doing well. The user base is growing, the app is becoming
-more stable, and I've had the opportunity to meet many great people. 
+more stable, and the people using it are amazing to interact with. 
 However, it's not generating revenue yet, and user growth is slow. Considering
-the sync beta should be ready to go live this week, this month should be very
-interesting.
+the sync beta should be ready to go live this week, the next few weeks should 
+be very interesting.
 
 I plan to try and write one of these posts every month, so keep your eyes out
 for that. Again, if there is anything else that you would like to see included 
