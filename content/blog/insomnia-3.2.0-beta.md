@@ -1,6 +1,6 @@
 ---
 date: 2016-08-15T10:17:00-07:00
-title: "Insomnia 3.2.0 Beta Update"
+title: "Cookie Management, Global Environments, and Code Generation"
 slug: "insomnia-3.2.0-beta-update"
 tags: ["update"]
 ---
@@ -29,11 +29,11 @@ was at the folder level. Now you can define environments globally (workspace lev
 create sub-environments that you can quickly switch between. environments.png You can access the 
 environment manager by clicking the new dropdown at the top of the sidebar.
 
-![Insomnia REST Client Global Environiments](/images/blog/environments.png)
+![Insomnia REST Client Global Environments](/images/blog/environments.png)
 
 ## Code Snippet Generation
 
-You can now atomatically generate code snippets for over thirty different languages and libraries, 
+You can now automatically generate code snippets for over thirty different languages and libraries, 
 including NodeJS, Go, Swift, Python, Java, and C. Access it by clicking the dropdown next to the 
 request in the sidebar. code.png
 

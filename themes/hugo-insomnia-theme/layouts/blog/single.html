@@ -20,22 +20,12 @@
               <time datetime='{{ .Date.Format "02 January 2006" }}'>
                 {{ .Date.Format "02 January, 2006" }}
               </time>
-              {{ if isset .Params "series" }}
-              {{ with .Params.series }}
-              –
-              <a href="{{ $.Site.BaseURL }}series/{{ index . 0 | urlize }}"
-                 title="This post is part of the {{ index . 0 }} blog series">
-                {{ index . 0 }}
-              </a>
-              {{ end }}
-              {{ end }}
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    {{ partial "post-tags" . }}
     {{ partial "post-series-notice" . }}
 
     <section class="content container">

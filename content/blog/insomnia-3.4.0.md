@@ -1,6 +1,6 @@
 ---
 date: 2016-09-13T11:41:49-07:00
-title: "Insomnia 3.4.0 Changelog"
+title: "New Features in Version 3.4.0"
 slug: "3.4.0-changelog"
 tags: ["update"]
 ---
@@ -10,6 +10,8 @@ Exactly one week ago Insomnia reached #1 on HackerNews, generating around
 spent the week going through these conversations and implementing common
 complaints, suggestions and feedback. There are a lot of exciting new features 
 in this release so pay grab some popcorn and take a seat.
+
+<!--more-->
 
 
 ## More Powerful JSON and XML Features 

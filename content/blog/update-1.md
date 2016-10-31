@@ -1,7 +1,7 @@
 ---
 date: 2016-10-30T11:39:42-07:00
-title: Progress Update 1
-slug: progress-update-1
+title: Update 1 – First Four Months
+slug: update-1
 series: ["transparency"]
 tags: ["company", "stats"]
 draft: true

@@ -14,6 +14,8 @@ conversations with users have helped identify bugs, given feedback, and
 suggested new features. Insomnia now has over 2000 daily active users across 
 the Mac, Windows, and Linux platforms.
 
+<!--more-->
+
 These conversations have not only helped improve stability and usability of the 
 app, but have also helped validate and shape the first features of Insomnia 
 Plus – a premium add-on for Insomnia that enables powerful features like
