@@ -25,6 +25,8 @@
         "name": "{{ .Site.Title }}",
         "url": "{{ .Site.BaseURL }}"
     }
+
+
   </script>
   <script type="application/ld+json">
     {
@@ -38,9 +40,20 @@
         "https://plus.google.com/+{{ .Site.Params.googlePlus }}"
       ]
     }
+
+
   </script>
 
-  {{ if .IsPage }}
+  {{ if eq .Section "changelog" }}
+  <!-- Twitter Summary Card (Changelog) -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@{{ .Site.Params.twitter }}"/>
+  <meta name="twitter:title" content="{{ .Title }}"/>
+  <meta name="twitter:description"
+        content="{{ if .Summary }}{{ .Summary }}{{ else }}Release notes for version {{ .Slug }}{{ end }}"/>
+  <meta name="twitter:image"
+        content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
+  {{ else if .IsPage }}
   <!-- Twitter Summary Card (Content) -->
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content="@{{ .Site.Params.twitter }}"/>
@@ -62,7 +75,8 @@
   <!-- Twitter Summary Card (List Page -->
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content="@{{ .Site.Params.twitter }}"/>
-  <meta name="twitter:title" content="{{ .Title }} for {{ .Site.Params.shortName }}"/>
+  <meta name="twitter:title"
+        content="{{ .Title }} for {{ .Site.Params.shortName }}"/>
   <meta name="twitter:description"
         content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
   <meta name="twitter:image"

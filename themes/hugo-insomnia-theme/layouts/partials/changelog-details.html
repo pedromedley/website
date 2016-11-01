@@ -5,6 +5,10 @@
   Version {{ .Slug }} is here!
 </p>
 {{ end }}
+<p class="center">
+  {{ partial "download-button" }}
+</p>
+
 
 {{ if isset .Params "major" }}
 <p><strong>Major</strong></p>
@@ -32,4 +36,3 @@
   {{ end }}
 </ul>
 {{ end }}
-
