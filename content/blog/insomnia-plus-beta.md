@@ -34,6 +34,7 @@ server whenever changes occur. On top of this, sync is
 app before sending it to the server. 
 
 ### Encryption Overview
+
 Data is encrypted with a key that is derived from your account password (which 
 is never sent to the server), meaning that Insomnia (or any third party) 
 cannot read your data. Privacy is crucial for Insomnia users, because 

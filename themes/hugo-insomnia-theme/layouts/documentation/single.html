@@ -16,19 +16,13 @@
             {{ end }}
           </header>
 
+          {{ partial "contribution-notice" . }}
+
           <section class="content">
             {{ .Content }}
           </section>
 
-          <footer>
-            <p class="notice">
-              Contribute to this page on
-              <a target="_blank"
-                 href="{{ .Site.Params.repo }}/blob/master/content/{{ .File.Path }}">
-                GitHub
-              </a>
-            </p>
-          </footer>
+          {{ partial "contribution-notice" . }}
         </article>
       </div>
     </div>

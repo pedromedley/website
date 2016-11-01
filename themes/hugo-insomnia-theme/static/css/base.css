@@ -16,7 +16,7 @@ hr {
     border: 0;
     border-bottom: 1px solid #eee;
     background: none;
-    margin: 3rem
+    margin: 3rem 0;
 }
 
 /* ~~~~~~~~~~~~ */
@@ -110,10 +110,14 @@ article {
     margin-bottom: 3rem;
 }
 
-article ul {
+article ul,
+article ol {
     padding-left: 1.5rem;
 }
 
+article ul ol,
+article ol ol,
+article ol ul,
 article ul ul {
     margin: 0;
 }
