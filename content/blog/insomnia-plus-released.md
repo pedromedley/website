@@ -1,8 +1,9 @@
 ---
-date: 2016-10-31T13:30:50-07:00
+date: 2016-11-02T13:30:50-07:00
 draft: true
 title: Introducing Insomnia Plus
 slug: introducing-insomnia-plus
+tags: ["announcement"]
 ---
 
 Today, I'm proud to introduce Insomnia Plus – a paid add-on to Insomnia that 
@@ -33,16 +34,28 @@ it is not used directly. In fact, your password is never sent to the server.
 _Check out the [Security Overview](/documentation/security) to find more
 details on how this works._
 
-
 ## Always in Sync
 
 TODO
 
-
-## An Up-To-Date Backup
+## Reliable Backup
 
 TODO
 
 ## What's To Come
 
+While this was a major effort to get done, it is just the beginning. There is
+now a secure, reliable, and extensible platform to build more advanced features
+on top of.
+
+### Data Snapshots
+
 TODO
+
+### Team Collaboration
+
+TODO
+
+### Something Else?
+
+If you want to see something that wasn't talked about I'd love to chat about it.
