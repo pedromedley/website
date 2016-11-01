@@ -18,7 +18,7 @@ it works.
 If you find any part of this document that are incorrect, missing, or wrong, 
 please don't hesitate to reach out.
 
-## Key Points
+## Key Security Features
 
 This section gives a high level overview of Insomnia Plus security. If you read
 anything in this document, it should be this section.

@@ -7,7 +7,7 @@
 {{ end }}
 
 {{ if isset .Params "major" }}
-<p><strong>Major Changes</strong></p>
+<p><strong>Major</strong></p>
 <ul>
   {{ range .Params.major }}
   <li>{{ . }}</li>
@@ -25,7 +25,7 @@
 {{ end }}
 
 {{ if isset .Params "minor" }}
-<p><strong>Minor Changes</strong></p>
+<p><strong>Minor</strong></p>
 <ul>
   {{ range .Params.minor }}
   <li>{{ . }}</li>
