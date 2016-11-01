@@ -32,6 +32,11 @@ how you use Insomnia, or sign up for a [paid plan](/pricing).
 **How can I set an environment variable from a request?**<br>
 At this time, that is not possible, but it's coming soon.
 
+**How can I temporarily disable Nunjucks template?**<br>
+Sometimes, it is necessary to want to send data that conflicts with the template
+engine. You can disable templating by wrapping the desired content in the
+[Nunjucks {% raw %} Tag](https://mozilla.github.io/nunjucks/templating.html#raw).
+
 **Why do I get `ECONNREFUSED` when trying to connect to `localhost`?**<br>
 This is currently a bug caused by Insomnia preferring IPv4 addresses over IPv6. 
 Try changing `localhost` with `[::1]` as a temporary workaround.

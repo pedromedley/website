@@ -202,6 +202,39 @@ img.jumbotron__icon {
     display: block;
 }
 
+/* ~~~~~~~ */
+/* SIDEBAR */
+/* ~~~~~~~ */
+
+.docs-sidebar {
+    margin-left: 0;
+}
+
+.docs-sidebar ul {
+    padding: 0;
+    margin: 0 0 1.4rem;
+}
+
+.docs-sidebar li {
+    list-style: none;
+}
+
+.docs-sidebar__entry {
+    padding: 0.2rem 0;
+    display: block;
+}
+
+.docs-sidebar__entry--active::after {
+    content: "→";
+}
+
+.docs-sidebar h2 {
+    font-size: 1.2rem;
+    padding: 0;
+    margin-bottom: 0.4rem;
+}
+
+
 /* ~~~~~~~~~~~~~ */
 /* MEDIA QUERIES */
 /* ~~~~~~~~~~~~~ */
@@ -219,6 +252,27 @@ img.jumbotron__icon {
 
     .navbar__items li:nth-child(1) {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 45rem) {
+    .docs-sidebar__entry--active::after {
+        content: "↓";
+    }
+}
+
+@media only screen and (max-width: 58rem) {
+    .docs-sidebar {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 2rem;
+    }
+
+    .docs-sidebar li {
+        display: inline-block;
+    }
+
+    .docs-sidebar__entry {
+        margin: 0 1rem
     }
 }
 
