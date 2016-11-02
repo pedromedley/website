@@ -1,9 +1,10 @@
 ---
-title: "Frequent Questions"
+title: "FAQ"
 slug: "faq"
 menu:
     docs:
         parent: "starting"
+        weight: 1000
 ---
 
 Here are answers to the most frequently asked questions that I receive from

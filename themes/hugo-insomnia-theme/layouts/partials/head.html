@@ -25,8 +25,6 @@
         "name": "{{ .Site.Title }}",
         "url": "{{ .Site.BaseURL }}"
     }
-
-
   </script>
   <script type="application/ld+json">
     {
@@ -40,8 +38,6 @@
         "https://plus.google.com/+{{ .Site.Params.googlePlus }}"
       ]
     }
-
-
   </script>
 
   {{ if eq .Section "changelog" }}
@@ -53,6 +49,14 @@
         content="{{ if .Summary }}{{ .Summary }}{{ else }}Release notes for version {{ .Slug }}{{ end }}"/>
   <meta name="twitter:image"
         content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
+  <!-- Facebook Metadata (Changelog) -->
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="{{ .Title }}"/>
+  <meta property="og:description"
+        content="{{ if .Summary }}{{ .Summary }}{{ else }}Release notes for version {{ .Slug }}{{ end }}"/>
+  <meta property="og:image"
+        content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
   {{ else if .IsPage }}
   <!-- Twitter Summary Card (Content) -->
   <meta name="twitter:card" content="summary"/>
@@ -61,6 +65,14 @@
   <meta name="twitter:description"
         content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
   <meta name="twitter:image"
+        content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
+  <!-- Facebook Metadata (Content) -->
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="{{ .Title }}"/>
+  <meta property="og:description"
+        content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+  <meta property="og:image"
         content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
   {{ else if .IsHome }}
   <!-- Full Twitter Card (Home Page) -->
@@ -71,8 +83,15 @@
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
   <meta name="twitter:image"
         content="{{ .Site.BaseURL }}images/twitter-promo.png">
+  <!-- Facebook Metadata (Home Page) -->
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="{{ .Site.Title }}"/>
+  <meta property="og:description" content="{{ .Site.Params.description }}"/>
+  <meta property="og:image"
+        content="{{ .Site.BaseURL }}images/twitter-promo.png"/>
   {{ else if .IsNode }}
-  <!-- Twitter Summary Card (List Page -->
+  <!-- Twitter Summary Card (List Page) -->
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content="@{{ .Site.Params.twitter }}"/>
   <meta name="twitter:title"
@@ -80,6 +99,15 @@
   <meta name="twitter:description"
         content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
   <meta name="twitter:image"
+        content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
+  <!-- Facebook Metadata (Content) -->
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:title"
+        content="{{ .Title }} for {{ .Site.Params.shortName }}"/>
+  <meta property="og:description"
+        content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+  <meta property="og:image"
         content="{{ .Site.BaseURL }}images/twitter-card-icon.png"/>
   {{ end }}
   <!-- /Twitter Card -->
