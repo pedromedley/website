@@ -7,36 +7,38 @@ tags: ["announcement"]
 ---
 
 Today, I'm proud to introduce Insomnia Plus – a paid add-on to Insomnia that 
-lets you seamlessly sync Insomnia data across all multiple devices. Along with
-this, Plus also provides a consistent, secure, and up-to-date backup of all 
-your work.
+keeps your data synced seamlessly across all your devices. This also provides a 
+consistent, secure, and up-to-date backup of all your work.
 
 <!--more-->
 
 With Plus, simply sign into your account and your data will be there. It 
-just works. However, there is a lot that you wont't see. Security and and 
-privacy being the biggest.
+just works. However, there a lot happening behind the scene, such as full
+end-to-end encryption of all data, smart conflict resolution, and robust offline
+support.
 
 ## Secure By Default
 
 Insomnia, by nature, is often used to communicate with secure and
-private APIs. HTTP requests can contain sensitive information like API keys,
-usernames, and passwords. For this reason,  Insomnia treats security as a
-priority, implementing many of the same techniques as industry-standard password 
-managers like [1Password](https://1password.com/), 
+private Services. HTTP requests may contain sensitive information like API keys,
+usernames, or passwords. For this reason, Insomnia treats security as a high
+priority, implementing many of the same techniques used by industry-leading 
+password management apps like [1Password](https://1password.com/), 
 [LastPass](https://www.lastpass.com/), and 
 [DashLane](https://www.dashlane.com/). 
 
-The password you chose when signing up for Insomnia used in both the
-authentication and encryption/decryption process (so don't lose it!). However,
-it is not used directly. In fact, your password is never sent to the server.
+When signing up for Plus, the password you chose will be used during both the
+authentication and encryption processes (so don't lose it!). However, due to
+the use of a protocol called [SRP](http://srp.stanford.edu/), this password is
+never actually sent to or stored on the server. This means, that not even
+Insomnia can get access to your data.
 
 _Check out the [Security Overview](/documentation/security) to find more
-details on how this works._
+on the Insomnia Plus architecture._
 
 ## Always in Sync
 
-TODO
+These days, it is common for people to have multiple machines.
 
 ## Reliable Backup
 

@@ -1,6 +1,6 @@
 ---
 date: 2016-09-13T11:41:49-07:00
-title: "New Features in Version 3.4.0"
+title: "Hacker News, JSONPath, And More!"
 slug: "3.4.0-changelog"
 tags: ["update"]
 ---
