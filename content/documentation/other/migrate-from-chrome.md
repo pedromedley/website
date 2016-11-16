@@ -3,7 +3,8 @@ title: "Migrating from 2.0"
 slug: "migrate-from-chrome"
 menu:
     docs:
-        parent: "starting"
+        parent: "other"
+        weight: 2
 ---
 
 The previous [version 2.0](https://chrome.google.com/webstore/detail/insomnia-rest-client/gmodihnfibbjdecbanmpmbmeffnmloel) 

@@ -71,7 +71,7 @@ params:
     - "main.js"
   email: "support@insomnia.rest"
   pageNotFoundTitle: "Sorry, that page doesn't exist"
-  shortName: "Insomnia 3.0"
+  shortName: "Insomnia"
   bio: "Independant software developer"
   location: "Victoria BC, Canada"
   description: "A powerful REST API Client with cookie management, environment variables, code generation, and authentication for Mac, Window, and Linux"

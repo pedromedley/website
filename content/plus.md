@@ -1,16 +1,11 @@
 ---
 title: "Insomnia Plus"
 slug: "plus"
-subTitle: "Now in Beta"
+subTitle: "Please Sign Up Within The App"
 ---
 
-## Hi there,
+<img alt="Thank You" src="https://media.giphy.com/media/TlK63EXvLD0en57UJDa/giphy.gif" style="max-height: 200px"/>
 
-Insomnia Plus is currently in beta, so is **free** for now! If you would like
-to participate in the beta and help test it out, head over to the
-[Insomnia Plus Documentation](/documentation/plus) to get started.
-
-Thanks for using Insomnia!
-      
-~ Gregory
-
+<p class="center">
+<a href="/documentation/plus" class="button">View Documentation</a>
+</p>
