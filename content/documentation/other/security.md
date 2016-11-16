@@ -1,10 +1,10 @@
 ---
-title: Data Sync Security
+title: Security Overview
 slug: security
 menu:
     docs:
         parent: other
-        weight: -1
+        weight: 1
 ---
 
 When signing up for [Insomnia Plus](/pricing), you gain access to end-to-end

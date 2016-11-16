@@ -6,7 +6,7 @@ tags: ["announcement"]
 ---
 
 Today, I'm proud to introduce Insomnia Plus – the first paid addition to Insomnia 
-that syncs data seamlessly across all of your devices. Plus also acts as 
+that syncs data seamlessly across all of your devices. Insomnia Plus also acts as 
 a secure backup, so you can _rest_ assured that you will never accidentally 
 lose you work!
 
@@ -20,45 +20,46 @@ just works. However, there a lot happening behind the scenes, such as
 support**.
 
 <p style="text-align:center">
-<a class="button" href="/documentation/plus">Upgrade to Insomnia Plus</a>
+<a class="button" href="/plus">Upgrade to Insomnia Plus</a>
+<br><br>
 </p>
 
 ## Always Backed up and in Sync
 
-We all know how important it is to keep frequent backups of data. Hard drive failures 
-and crashes happen all the time. Now, you have one less thing to worry about.
+We all know how important it is to keep frequent backups of our data. Hard drive 
+failures and crashes happen all the time. Now, you have one less thing to worry 
+about.
 
-<img src="/images/blog/sync-menu.png"/ style="max-height:230px" alt="Insomnia Plus Sync Menu">
+<img src="/images/blog/sync-menu.png"
+    style="max-height:230px" 
+    alt="Insomnia Plus Sync Menu"/>
 
-Once signed in to Plus, data is automatically backed up whenever changes are made 
-And, if you are signed in to multiple devices, changes will appear
-across all of them within seconds.
+Once signed in to Plus, data is automatically synced whenever a change is 
+detected. And, if you are signed in to multiple devices, these changes 
+will automatically be pulled down and merged within seconds. Furthermore,
+this all happens in an encrypted and secure manner. 
 
 
 ## Secure and Private by Default
 
-Insomnia, by nature, is often used to communicate with secure and
-private Services. HTTP requests may contain sensitive information like API keys,
-usernames, or passwords. For this reason, Insomnia Plus treats security as a high
-priority, implementing many of the same techniques used by industry-leading 
-password management apps like [1Password](https://1password.com/), 
-[LastPass](https://www.lastpass.com/), and 
-[DashLane](https://www.dashlane.com/). 
-
-![Raccoon Stealing Carpet](https://media.giphy.com/media/N6sPcUBbayGoo/giphy.gif)
+Before any data is synced to Insomnia's servers, it is first **encrypted locally** using a
+key generated on your device. This means that any sensitive information you
+enter into the app (API keys, passwords, etc) will be kept private. **Not even the Insomnia
+servers have the ability to read your data.**
 
 _Check out the [Security Overview](/documentation/security) to find more
 on the Insomnia Plus architecture._
 
+![Raccoon Stealing Carpet](https://media.giphy.com/media/N6sPcUBbayGoo/giphy.gif)
+
 ## Final Words
 
-Building the initial iteration of sync was a major effort, but it was just the first 
+Building the initial iteration of sync was a major effort, but it's just the first 
 step. Now, with a stable and secure foundation to build on, expect to see more advanced 
 features like **team collaboration** and **versioning** in the near future.
 
 If you decide to sign up for Plus, I'd like to say a huge _THANK YOU_ for helping 
-support my continuous effort of making Insomnia awesome! Also, be sure to let me know
-what you think, so I can ensure the product heads in the right direction.
-
-Thanks!
+support my continuous effort of making Insomnia awesome! Also, be sure to reach out 
+with your thoughts, so we can work together to ensure the product keeps heading 
+in the right direction.
 

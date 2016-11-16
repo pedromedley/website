@@ -10,6 +10,10 @@ menu:
 Here are answers to the most frequently asked questions that I receive from
 email support and social media.
 
+- [General Questions](#general-questions)
+- [Technical Questions](#technical-questions)
+- [Random Questions](#random-questions)
+
 
 ## General Questions
 
