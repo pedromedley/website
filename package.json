@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/getinsomnia/website#readme",
   "devDependencies": {
-    "speedpack": "^0.1.2"
+    "speedpack": "^0.1.2",
+    "surge": "^0.18.0"
   }
 }
