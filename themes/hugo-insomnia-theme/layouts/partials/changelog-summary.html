@@ -6,22 +6,22 @@
 </p>
 {{ end }}
 
-<ul>
+<ul class="ul--decorated">
   {{ if isset .Params "major" }}
   {{ range .Params.major }}
-  <li>{{ . }}</li>
+  <li class="li--major">{{ . }}</li>
   {{ end }}
   {{ end }}
 
   {{ if isset .Params "fixes" }}
   {{ range .Params.fixes }}
-  <li>{{ . }}</li>
+  <li class="li--fix">{{ . }}</li>
   {{ end }}
   {{ end }}
 
   {{ if isset .Params "minor" }}
   {{ range .Params.minor }}
-  <li>{{ . }}</li>
+  <li class="li--minor">{{ . }}</li>
   {{ end }}
   {{ end }}
 </ul>

@@ -233,6 +233,40 @@ img.jumbotron__icon {
     margin-bottom: 0.4rem;
 }
 
+/* ~~~~~ */
+/* LISTS */
+/* ~~~~~ */
+
+ul.ul--decorated {
+    list-style: none;
+}
+
+ul.ul--decorated li {
+    position: relative;
+}
+
+ul.ul--decorated li:before {
+    position: absolute;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: -1.4rem;
+}
+
+li.li--major:before,
+ul.ul--major li:before {
+    content: '\01F680';
+}
+
+li.li--fix:before,
+ul.ul--fix li:before {
+    content: '\01F691';
+}
+
+li.li--minor:before,
+ul.ul--minor li:before {
+    content: '\01F484';
+}
+
 
 /* ~~~~~~~~~~~~~ */
 /* MEDIA QUERIES */

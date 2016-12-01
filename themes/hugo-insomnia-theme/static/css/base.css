@@ -201,6 +201,19 @@ article section {
     margin: 1rem 0;
 }
 
+article img.small {
+    display: block;
+    max-width: 100%;
+    max-height: 40vh;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    border-radius: 3px;
+    margin: 2rem auto 3rem auto;
+}
+
 header.header--big {
     text-align: center;
     padding: 3rem 0 2rem 0;
@@ -376,7 +389,6 @@ pre > code {
 .margin-top {
     margin-top: 3rem;
 }
-
 
 /* ~~~~~~ */
 /* THEMES */

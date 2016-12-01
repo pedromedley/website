@@ -8,7 +8,7 @@ tags: ["announcement"]
 Today, I'm proud to introduce Insomnia Plus – the first paid addition to Insomnia 
 that syncs data seamlessly across all of your devices. Insomnia Plus also acts as 
 a secure backup, so you can _rest_ assured that you will never accidentally 
-lose you work!
+lose your work!
 
 <!--more-->
 

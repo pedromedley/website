@@ -11,7 +11,7 @@ permalinks:
   documentation: /documentation/:slug
 menu:
   main:
-    - Name: "Pricing"
+    - Name: "Teams"
       Identifier: "pricing"
       URL: "/pricing/"
       Weight: 20

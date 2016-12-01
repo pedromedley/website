@@ -4,6 +4,12 @@
 {{ range $i, $page := $pages }}
 {
 "version": "{{ .Slug }}",
+{{ if isset .Params "link" }}
+"link": "{{ .Params.link }}",
+{{ end }}
+{{ if isset .Params "summary" }}
+"summary": "{{ .Params.summary }}",
+{{ end }}
 "major": [
 {{ if isset .Params "major" }}
 {{ $majorTotal := len .Params.major }}

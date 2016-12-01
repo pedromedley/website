@@ -12,7 +12,7 @@
 
 {{ if isset .Params "major" }}
 <p><strong>Major</strong></p>
-<ul>
+<ul class="ul--decorated ul--major">
   {{ range .Params.major }}
   <li>{{ . }}</li>
   {{ end }}
@@ -21,7 +21,7 @@
 
 {{ if isset .Params "fixes" }}
 <p><strong>Fixes</strong></p>
-<ul>
+<ul class="ul--decorated ul--fix">
   {{ range .Params.fixes }}
   <li>{{ . }}</li>
   {{ end }}
@@ -30,7 +30,7 @@
 
 {{ if isset .Params "minor" }}
 <p><strong>Minor</strong></p>
-<ul>
+<ul class="ul--decorated ul--minor">
   {{ range .Params.minor }}
   <li>{{ . }}</li>
   {{ end }}
