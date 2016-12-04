@@ -1,5 +1,5 @@
 ---
-title: "Download Insomnia 3.0"
+title: "Download Insomnia 4.0"
 subTitle: "Stop wasting time in your command line and `GET` some `REST`"
 ---
 
@@ -8,6 +8,7 @@ subTitle: "Stop wasting time in your command line and `GET` some `REST`"
     <i class="fa fa-apple platform-download__icon bg-mac"></i>
     <p>
       <a href="https://builds.insomnia.rest/downloads/mac/latest"
+         data-ga="Download:Mac:Manual"
          class="button">
         <i class="fa fa-download"></i>
         OS X 10.8+
@@ -18,26 +19,30 @@ subTitle: "Stop wasting time in your command line and `GET` some `REST`"
     <i class="fa fa-windows platform-download__icon bg-windows"></i>
     <p>
       <a href="https://builds.insomnia.rest/downloads/windows/latest"
+         data-ga="Download:Windows:Manual"
          class="button">
         <i class="fa fa-download"></i>
         Windows 7+
       </a>
-      <br>
-      <span class="subtle"><span class="subtle">(64-bit only)</span></span>
+    </p>
+    <p class="subtle small" style="max-width:12rem;margin:auto;">
+      (64-bit only)
     </p>
   </div>
   <div class="col-4 platform-download">
     <i class="fa fa-linux platform-download__icon bg-linux"></i>
     <p>
       <a href="https://builds.insomnia.rest/downloads/ubuntu/latest"
+         data-ga="Download:Ubuntu:Manual"
          class="button">
         <i class="fa fa-download"></i>
         Ubuntu 14.04+
       </a>
     </p>
-    <p class="subtle" style="max-width:12rem;margin:auto;">
+    <p class="subtle small" style="max-width:12rem;margin:auto;">
       Another distro? Download the
-      <a href="https://builds.insomnia.rest/downloads/linux/latest">
+      <a href="https://builds.insomnia.rest/downloads/linux/latest"
+         data-ga="Download:AppImage:Manual">
         Generic Package
       </a> (AppImage)
     </p>
@@ -54,10 +59,10 @@ subTitle: "Stop wasting time in your command line and `GET` some `REST`"
   <div class="col-6">
     <h2>Looking for more?</h2>
     <p>
-      Click the link below to view the release notes for all previous versions.
+      Click the link below to view the changelog for all previous versions.
     </p>
     <a href="/changelog" class="button">
-      Visit Release Notes
+      Visit Changelog
     </a>
   </div>
 </div>
@@ -66,10 +71,13 @@ subTitle: "Stop wasting time in your command line and `GET` some `REST`"
   var downloadUrl = null;
 
   if (window.location.hash === '#mac') {
+    ga('send', 'event', 'Download', 'Mac', 'Auto');
     downloadUrl = 'http://builds.insomnia.rest/downloads/mac/latest'
   } else if (window.location.hash === '#windows') {
+    ga('send', 'event', 'Download', 'Windows', 'Auto');
     downloadUrl = 'http://builds.insomnia.rest/downloads/windows/latest'
   } else if (window.location.hash === '#linux') {
+    ga('send', 'event', 'Download', 'Ubuntu', 'Auto');
     downloadUrl = 'http://builds.insomnia.rest/downloads/ubuntu/latest'
   }
 
@@ -78,5 +86,13 @@ subTitle: "Stop wasting time in your command line and `GET` some `REST`"
     setTimeout(function () {
       window.location = downloadUrl;
     }, 300);
+  }
+
+  var as = document.querySelectorAll('a[data-ga]');
+  for (var i = 0; i < as.length; i++) {
+    as[i].addEventListener('click', function (e) {
+      var args = this.getAttribute('data-ga').split(':');
+      ga('send', 'event', args[0], args[1], args[2]);
+    });
   }
 </script>

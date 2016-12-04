@@ -366,7 +366,10 @@ pre > code {
 }
 
 .subtle {
-    opacity: 0.8;
+    opacity: 0.7;
+}
+
+.small {
     font-size: 0.85em;
 }
 

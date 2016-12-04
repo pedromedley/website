@@ -1,5 +1,5 @@
 ---
-date: 2016-11-30
+date: 2016-12-01
 title: "Insomnia 4.0 – Out of Beta at Last!"
 slug: insomnia-4-announcement
 tags: ["update", "announcement"]
@@ -81,31 +81,10 @@ the app should now be noticeably faster, especially if you have a lot of request
 
 ![F-Zero](https://media.giphy.com/media/h41bl4ZNk276w/giphy.gif)
 
-## What's Next for Insomnia? &#128640;&#128640;&#128640;
-
-As mentioned before, this release fills in all of the major usability gaps that I've 
-noticed over the last five months. Insomnia 4.0 is now a better fit for a lot more use
-cases. Now it's time to focus on more advanced features and work flows.
-
-### Team Collaboration and Sharing
-
-A few weeks ago, [Insomnia Plus](/plus) was released. Plus is a paid add-on that provides
-encrypted data sync in the cloud. This can be very useful for working across multiple 
-computers, or as a way to ensure your data is always backed up, but it is only the beginning.
-
-Insomnia Plus in it's current form, is the foundation to support a much more powerful 
-feature: [Insomnia Teams](/teams). Teams will bring with it the ability to collaborate
-on the same API with multiple members. 
-
-### Plugins and Scripting
-
-One of my goals with Insomnia is to be able to support the use case for anyone interacting
-with HTTP-based APIs. Version 4.0 brings Insomnia much closer to this goal but there is
-still a lot missing, and due to the handicap of being a 1-person team, it would be difficult
-to support all technologies and use cases. This is where scripting and plugins shine.
-
-
 ## Thanks for The Support!
 
 I've said it before, but I'll say it again. It's been amazing to be able to interact
-with so many users.
+with so many of you, and I hope we can keep this going. Each conversation 
+provides more context to help make Insomnia a better tool for everyone, so thanks! 
+
+~ Gregory
