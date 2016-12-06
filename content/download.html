@@ -1,6 +1,6 @@
 ---
 title: "Download Insomnia 4.0"
-subTitle: "Stop wasting time in your command line and `GET` some `REST`"
+subTitle: "Stop wasting time with your command line and `GET` some `REST`"
 ---
 
 <div class="row center">
@@ -57,7 +57,7 @@ subTitle: "Stop wasting time in your command line and `GET` some `REST`"
   <div class="col-3">
   </div>
   <div class="col-6">
-    <h2>Looking for more?</h2>
+    <h2>Want more info?</h2>
     <p>
       Click the link below to view the changelog for all previous versions.
     </p>
@@ -68,31 +68,32 @@ subTitle: "Stop wasting time in your command line and `GET` some `REST`"
 </div>
 
 <script>
-  var downloadUrl = null;
+  (function () {
+//    var u = null;
+//    if (window.location.hash === '#mac') {
+//      ga('send', 'event', 'Download', 'Mac', 'Auto');
+//      u = 'http://builds.insomnia.rest/downloads/mac/latest'
+//    } else if (window.location.hash === '#windows') {
+//      ga('send', 'event', 'Download', 'Windows', 'Auto');
+//      u = 'http://builds.insomnia.rest/downloads/windows/latest'
+//    } else if (window.location.hash === '#ubuntu') {
+//      ga('send', 'event', 'Download', 'Ubuntu', 'Auto');
+//      u = 'http://builds.insomnia.rest/downloads/ubuntu/latest
+//    }
+//
+//    if (u) {
+//      window.location.hash = '#';
+//      setTimeout(function () {
+//        window.location = u;
+//      }, 300);
+//    }
 
-  if (window.location.hash === '#mac') {
-    ga('send', 'event', 'Download', 'Mac', 'Auto');
-    downloadUrl = 'http://builds.insomnia.rest/downloads/mac/latest'
-  } else if (window.location.hash === '#windows') {
-    ga('send', 'event', 'Download', 'Windows', 'Auto');
-    downloadUrl = 'http://builds.insomnia.rest/downloads/windows/latest'
-  } else if (window.location.hash === '#linux') {
-    ga('send', 'event', 'Download', 'Ubuntu', 'Auto');
-    downloadUrl = 'http://builds.insomnia.rest/downloads/ubuntu/latest'
-  }
-
-  if (downloadUrl) {
-    window.location.hash = '#';
-    setTimeout(function () {
-      window.location = downloadUrl;
-    }, 300);
-  }
-
-  var as = document.querySelectorAll('a[data-ga]');
-  for (var i = 0; i < as.length; i++) {
-    as[i].addEventListener('click', function (e) {
-      var args = this.getAttribute('data-ga').split(':');
-      ga('send', 'event', args[0], args[1], args[2]);
-    });
-  }
+    var as = document.querySelectorAll('a[data-ga]');
+    for (var i = 0; i < as.length; i++) {
+      as[i].addEventListener('click', function (e) {
+        var args = this.getAttribute('data-ga').split(':');
+        ga('send', 'event', args[0], args[1], args[2]);
+      });
+    }
+  })();
 </script>
