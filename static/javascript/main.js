@@ -1,7 +1,7 @@
 (function () {
   var els = document.querySelectorAll('.__download-link');
 
-  var prefix = 'Download Free for ';
+  var prefix = 'Download for ';
   var location = null;
   var platform = null;
 

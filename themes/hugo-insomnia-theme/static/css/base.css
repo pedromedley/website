@@ -245,6 +245,10 @@ article footer {
     padding: 3rem 0;
 }
 
+article .twitter-tweet {
+    margin: 2rem auto !important;
+}
+
 code {
     font-size: 0.75em;
     border-radius: 0.2em;
